@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Cluster Co-ordinator School Assigned Details List</title>
+
+	<!-- Main Styles -->
+	<link rel="stylesheet" href="assets/styles/style.min.css">
+
+	<!-- mCustomScrollbar -->
+	<link rel="stylesheet" href="assets/plugin/mCustomScrollbar/jquery.mCustomScrollbar.min.css">
+
+	<!-- Waves Effect -->
+	<link rel="stylesheet" href="assets/plugin/waves/waves.min.css">
+
+	<!-- Sweet Alert -->
+	<link rel="stylesheet" href="assets/plugin/sweet-alert/sweetalert.css">
+	
+	<!-- Data Tables -->
+	<link rel="stylesheet" href="assets/plugin/datatables/media/css/dataTables.bootstrap.min.css">
+	<link rel="stylesheet" href="assets/plugin/datatables/extensions/Responsive/css/responsive.bootstrap.min.css">
+
+	<!-- Color Picker -->
+	<link rel="stylesheet" href="assets/color-switcher/color-switcher.min.css">
+</head>
+
+<body>
+<div class="main-menu">
+	<header class="header">
+		<a href="index.html" class="logo">NinjaTeam</a>
+		<button type="button" class="button-close fa fa-times js__menu_close"></button>
+		<div class="user">
+			<a href="#" class="avatar"><img src="http://placehold.it/80x80" alt=""><span class="status online"></span></a>
+			<h5 class="name"><a href="profile.html">Emily Stanley</a></h5>
+			<h5 class="position">Administrator</h5>
+			<!-- /.name -->
+			<div class="control-wrap js__drop_down">
+				<i class="fa fa-caret-down js__drop_down_button"></i>
+				<div class="control-list">
+					<div class="control-item"><a href="profile.html"><i class="fa fa-user"></i> Profile</a></div>
+					<div class="control-item"><a href="#"><i class="fa fa-gear"></i> Settings</a></div>
+					<div class="control-item"><a href="#"><i class="fa fa-sign-out"></i> Log out</a></div>
+				</div>
+				<!-- /.control-list -->
+			</div>
+			<!-- /.control-wrap -->
+		</div>
+		<!-- /.user -->
+	</header>
+	<!-- /.header -->
+	<div class="content">
+
+		<div class="navigation">
+			<h5 class="title">Navigation</h5>
+			<!-- /.title -->
+			<ul class="menu js__accordion">
+				<li>
+					<a class="waves-effect" href="index.html"><i class="menu-icon fa fa-home"></i><span>Dashboard</span></a>
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-flag"></i><span>Icons</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="icons-font-awesome-icons.html">Font Awesome</a></li>
+						<li><a href="icons-fontello.html">Fontello</a></li>
+						<li><a href="icons-material-icons.html">Material Design Icons</a></li>
+						<li><a href="icons-material-design-iconic.html">Material Design Iconic Font</a></li>
+						<li><a href="icons-themify-icons.html">Themify Icons</a></li>
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-adjust"></i><span>User Interface</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="ui-buttons.html">Buttons</a></li>
+						<li><a href="ui-cards.html">Cards</a></li>
+						<li><a href="ui-checkbox-radio.html">Checkboxs-Radios</a></li>
+						<li><a href="ui-components.html">Components</a></li>
+						<li><a href="ui-draggable-cards.html">Draggable Cards</a></li>
+						<li><a href="ui-modals.html">Modals</a></li>
+						<li><a href="ui-notification.html">Notification</a></li>
+						<li><a href="ui-range-slider.html">Range Slider</a></li>
+						<li><a href="ui-sweetalert.html">Sweet Alert</a></li>
+						<li><a href="ui-treeview.html">Tree view</a></li>
+						<li><a href="ui-typography.html">Typography</a></li>
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<li>
+					<a class="waves-effect" href="widgets.html"><i class="menu-icon fa fa-code"></i><span>Widgets</span><span class="notice notice-yellow">6</span></a>
+				</li>
+			</ul>
+			<!-- /.menu js__accordion -->
+			<h5 class="title">Components</h5>
+			<!-- /.title -->
+			<ul class="menu js__accordion">
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-bar-chart"></i><span>Charts</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="chart-3d.html">3D Charts</a></li>
+						<li><a href="chart-chartist.html">Chartist Charts</a></li>
+						<li><a href="chart-chartjs.html">Chartjs Chart</a></li>
+						<li><a href="chart-dynamic.html">Dynamic Chart</a></li>
+						<li><a href="chart-flot.html">Flot Chart</a></li>
+						<li><a href="chart-knob.html">Knob Chart</a></li>
+						<li><a href="chart-morris.html">Morris Chart</a></li>
+						<li><a href="chart-sparkline.html">Sparkline Chart</a></li>
+						<li><a href="chart-other.html">Other Chart</a></li>
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<li>
+					<a class="waves-effect" href="calendar.html"><i class="menu-icon fa fa-calendar"></i><span>Calendar</span></a>
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-th-large"></i><span>Forms</span><span class="notice notice-blue">7</span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="form-elements.html">General Elements</a></li>
+						<li><a href="form-advanced.html">Advanced Form</a></li>
+						<li><a href="form-fileupload.html">Form Uploads</a></li>
+						<li><a href="form-validation.html">Form Validation</a></li>
+						<li><a href="form-wizard.html">Form Wizard</a></li>
+						<li><a href="form-wysiwig.html">Wysiwig Editors</a></li>
+						<li><a href="form-xeditable.html">X-editable</a></li>
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<li class="current active">
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-table"></i><span>Tables</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="tables-basic.html">Basic Tables</a></li>
+						<li class="current"><a href="tables-datatable.html">Data Tables</a></li>
+						<li><a href="tables-responsive.html">Responsive Tables</a></li>
+						<li><a href="tables-editable.html">Editable Tables</a></li>
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+			</ul>
+			<!-- /.menu js__accordion -->
+			<h5 class="title">Additions</h5>
+			<!-- /.title -->
+			<ul class="menu js__accordion">
+				<li>
+					<a class="waves-effect" href="profile.html"><i class="menu-icon fa fa-user"></i><span>Profile</span></a>
+				</li>
+				<li>
+					<a class="waves-effect" href="inbox.html"><i class="menu-icon fa fa-envelope"></i><span>Mail</span><span class="notice notice-danger">New</span></a>
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-file-text"></i><span>Page</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="page-starter.html">Starter Page</a></li>
+						<li><a href="page-login.html">Login</a></li>
+						<li><a href="page-register.html">Register</a></li>
+						<li><a href="page-recoverpw.html">Recover Password</a></li>
+						<li><a href="page-lock-screen.html">Lock Screen</a></li>
+						<li><a href="page-confirm-mail.html">Confirm Mail</a></li>
+						<li><a href="page-404.html">Error 404</a></li>
+						<li><a href="page-500.html">Error 500</a></li>
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-folder-open"></i><span>Extra Pages</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="extras-contact.html">Contact list</a></li>
+						<li><a href="extras-email-template.html">Email template</a></li>
+						<li><a href="extras-faq.html">FAQ</a></li>
+						<li><a href="extras-gallery.html">Gallery</a></li>
+						<li><a href="extras-invoice.html">Invoice</a></li>
+						<li><a href="extras-maps.html">Maps</a></li>
+						<li><a href="extras-pricing.html">Pricing</a></li>
+						<li><a href="extras-projects.html">Projects</a></li>
+						<li><a href="extras-taskboard.html">Taskboard</a></li>
+						<li><a href="extras-timeline.html">Timeline</a></li>
+						<li><a href="extras-tour.html">Tour</a></li>
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+			</ul>
+			<!-- /.menu js__accordion -->
+		</div>
+		<!-- /.navigation -->
+	</div>
+	<!-- /.content -->
+</div>
+<!-- /.main-menu -->
+
+<div class="fixed-navbar">
+	<div class="pull-left">
+		<button type="button" class="menu-mobile-button glyphicon glyphicon-menu-hamburger js__menu_mobile"></button>
+		<h1 class="page-title">Cluster Co-ordinator School Assigned Details List</h1>
+		<!-- /.page-title -->
+	</div>
+	<!-- /.pull-left -->
+	
+</div>
+<!-- /.fixed-navbar -->
+
+<div id="notification-popup" class="notice-popup js__toggle" data-space="75">
+	<h2 class="popup-title">Your Notifications</h2>
+	<!-- /.popup-title -->
+	<div class="content">
+		<ul class="notice-list">
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">John Doe</span>
+					<span class="desc">Like your post: “Contact Form 7 Multi-Step”</span>
+					<span class="time">10 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Anna William</span>
+					<span class="desc">Like your post: “Facebook Messenger”</span>
+					<span class="time">15 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar bg-warning"><i class="fa fa-warning"></i></span>
+					<span class="name">Update Status</span>
+					<span class="desc">Failed to get available update data. To ensure the please contact us.</span>
+					<span class="time">30 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
+					<span class="name">Jennifer</span>
+					<span class="desc">Like your post: “Contact Form 7 Multi-Step”</span>
+					<span class="time">45 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Michael Zenaty</span>
+					<span class="desc">Like your post: “Contact Form 7 Multi-Step”</span>
+					<span class="time">50 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Simon</span>
+					<span class="desc">Like your post: “Facebook Messenger”</span>
+					<span class="time">1 hour</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar bg-violet"><i class="fa fa-flag"></i></span>
+					<span class="name">Account Contact Change</span>
+					<span class="desc">A contact detail associated with your account has been changed.</span>
+					<span class="time">2 hours</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Helen 987</span>
+					<span class="desc">Like your post: “Facebook Messenger”</span>
+					<span class="time">Yesterday</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
+					<span class="name">Denise Jenny</span>
+					<span class="desc">Like your post: “Contact Form 7 Multi-Step”</span>
+					<span class="time">Oct, 28</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Thomas William</span>
+					<span class="desc">Like your post: “Facebook Messenger”</span>
+					<span class="time">Oct, 27</span>
+				</a>
+			</li>
+		</ul>
+		<!-- /.notice-list -->
+		<a href="#" class="notice-read-more">See more messages <i class="fa fa-angle-down"></i></a>
+	</div>
+	<!-- /.content -->
+</div>
+<!-- /#notification-popup -->
+
+<div id="message-popup" class="notice-popup js__toggle" data-space="75">
+	<h2 class="popup-title">Recent Messages<a href="#" class="pull-right text-danger">New message</a></h2>
+	<!-- /.popup-title -->
+	<div class="content">
+		<ul class="notice-list">
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">John Doe</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">10 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Harry Halen</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">15 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Thomas Taylor</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">30 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
+					<span class="name">Jennifer</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">45 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Helen Candy</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">45 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
+					<span class="name">Anna Cavan</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">1 hour ago</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar bg-success"><i class="fa fa-user"></i></span>
+					<span class="name">Jenny Betty</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">1 day ago</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
+					<span class="name">Denise Peterson</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">1 year ago</span>
+				</a>
+			</li>
+		</ul>
+		<!-- /.notice-list -->
+		<a href="#" class="notice-read-more">See more messages <i class="fa fa-angle-down"></i></a>
+	</div>
+	<!-- /.content -->
+</div>
+<!-- /#message-popup -->
+
+<div id="wrapper">
+	<div class="main-content">
+		<div class="row small-spacing">
+			<div class="col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title"><button type="submit" class="btn btn-primary btn-sm waves-effect waves-light">Add Employee</button>
+						</h4>
+					<!-- /.box-title -->
+					<div class="dropdown js__drop_down">
+						<a href="#" class="dropdown-icon glyphicon glyphicon-option-vertical js__drop_down_button"></a>
+						<ul class="sub-menu">
+							<li><a href="#">Export as CSV</a></li>
+						</ul>
+						<!-- /.sub-menu -->
+					</div>
+					<!-- /.dropdown js__dropdown -->
+					<table id="example" class="table table-striped table-bordered display" style="width:100%">
+						<thead>
+
+							<tr><th>#</th><th class="kv-align-center kv-align-middle skip-export kv-expand-header-cell kv-batch-toggle w4_e73847b7" title="Expand all" style="width:50px;" data-col-seq="1"></th><th data-col-seq="2">Name</th><th data-col-seq="3">Contact No.</th><th data-col-seq="4">Email</th><th data-col-seq="5">No. Of School Asssigned</th><th data-col-seq="6">Status</th><th class="action-column">Action</th></tr>
+							
+							</thead>
+							<tbody>
+							<tr data-key="1293"><td style="width: 50px;">1</td><td class="w4_e73847b7 skip-export kv-align-center kv-align-middle kv-expand-icon-cell" title="Expand" style="width: 50px;" data-col-seq="1">        <div class="kv-expand-row ">
+										<div class="kv-expand-icon kv-state-expanded"><span class="glyphicon glyphicon-expand"></span></div>
+										<div class="kv-expand-detail skip-export" style="display:none;">
+											<div class="kv-state-enable skip-export kv-expanded-row w4_e73847b7" data-index="0" data-key="1293"><div class="product-manage-index">
+								<div class='row'>
+									<div class='col-sm-12'>
+										<div class="box-header with-border">
+											<h3 class="box-title"><i class="fa fa-check-circle"></i> Assigned School List</h3>
+										</div>
+										<div class="box box-info">
+											<div class='box-body box-no-padding'>
+												<div class='box-body box-no-padding'>  
+													<div id="w8-pjax" data-pjax-container="" data-pjax-timeout="1000"><div class="kv-loader-overlay"><div class="kv-loader"></div></div><div id="w8" class="grid-view is-bs3 hide-resize" data-krajee-grid="kvGridInit_e5fd1484" data-krajee-ps="ps_w8_container"><div id="w8-container" class="table-responsive kv-grid-container"><table class="kv-grid-table table table-hover table-bordered table-striped kv-table-wrap"><thead>
+							
+							<tr><th>#</th><th data-col-seq="1">School Name</th><th data-col-seq="2">UDISE Code</th><th data-col-seq="3">BCCL Code</th><th data-col-seq="4">District Name</th><th data-col-seq="5">Block Name</th><th class="action-column">Action</th></tr>
+							
+							</thead>
+							<tbody>
+							<tr data-key="1692"><td style="width: 50px;">1</td><td style="width: 300px;" data-col-seq="1">KGBV BERO</td><td data-col-seq="2">20140700310</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-185</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BERO</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1692" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1693"><td style="width: 50px;">2</td><td style="width: 300px;" data-col-seq="1">KGBV BUNDU</td><td data-col-seq="2">20141808205</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-186</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BUNDU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1693" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1694"><td style="width: 50px;">3</td><td style="width: 300px;" data-col-seq="1">KGBV BURMU</td><td data-col-seq="2">20140608604</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-187</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BURMU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1694" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1695"><td style="width: 50px;">4</td><td style="width: 300px;" data-col-seq="1">KGBV CHANHO</td><td data-col-seq="2">20140302002</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-188</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">CHANHO</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1695" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1696"><td style="width: 50px;">5</td><td style="width: 300px;" data-col-seq="1">KGBV LAPUNG</td><td data-col-seq="2">20140504505</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-190</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">LAPUNG</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1696" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1697"><td style="width: 50px;">6</td><td style="width: 300px;" data-col-seq="1">KGBV MANDER</td><td data-col-seq="2">20140406305</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-191</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">MANDAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1697" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1698"><td style="width: 50px;">7</td><td style="width: 300px;" data-col-seq="1">KGBV NAMKUM</td><td data-col-seq="2">20140806605</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-192</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">NAMKUM</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1698" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1699"><td style="width: 50px;">8</td><td style="width: 300px;" data-col-seq="1">KGBV SONAHATU</td><td data-col-seq="2">20141902304</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-195</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">SONAHATU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1699" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1700"><td style="width: 50px;">9</td><td style="width: 300px;" data-col-seq="1">KGBV TAMAR</td><td data-col-seq="2">20142011513</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-196</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">TAMAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1700" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1701"><td style="width: 50px;">10</td><td style="width: 300px;" data-col-seq="1">MARWARI +2 HIGH SCHOOL RANCHI</td><td data-col-seq="2">20140120012</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-197</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1701" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1702"><td style="width: 50px;">11</td><td style="width: 300px;" data-col-seq="1">GOVT HIGH SCHOOL LAPUNG</td><td data-col-seq="2">20140506501</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-198</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">LAPUNG</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1702" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1703"><td style="width: 50px;">12</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HIGH SCHOOL UCHARI</td><td data-col-seq="2">20140405202</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-199</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">MANDAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1703" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1704"><td style="width: 50px;">13</td><td style="width: 300px;" data-col-seq="1">GOVT.UPGRADED HIGH SCHOOL BURHADIH</td><td data-col-seq="2">20141800501</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-201</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BUNDU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1704" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1705"><td style="width: 50px;">14</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT RSMM +2 HIGH SCHOOL BUNDU,RANCHI</td><td data-col-seq="2">20141803503</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-202</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BUNDU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1705" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1706"><td style="width: 50px;">15</td><td style="width: 300px;" data-col-seq="1">PROJECT GIRLS HIGH SCHOOL, THAKURGAON</td><td data-col-seq="2">20140603010</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-203</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BURMU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1706" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1707"><td style="width: 50px;">16</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HIGH SCHOOL MASMANO</td><td data-col-seq="2">20140304401</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-204</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">CHANHO</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1707" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1708"><td style="width: 50px;">17</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT KISAN HIGH SCHOOL, PATRATU</td><td data-col-seq="2">20140305202</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-205</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">CHANHO</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1708" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1709"><td style="width: 50px;">18</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HIGH SCHOOL KUMHARIYA</td><td data-col-seq="2">20140107701</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-208</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1709" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1710"><td style="width: 50px;">19</td><td style="width: 300px;" data-col-seq="1">GOVT HIGH SCHOOL BAZRA HEHAL RANCHI</td><td data-col-seq="2">20140115517</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-209</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1710" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1711"><td style="width: 50px;">20</td><td style="width: 300px;" data-col-seq="1">RAJKIYA A.S.T.V.S. +2 ZILA VIDYALAYA RANCHI</td><td data-col-seq="2">20140120009</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-210</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1711" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1712"><td style="width: 50px;">21</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT T.V.S. HIGH SCHOOL, JAGANNATHPUR, RANCHI</td><td data-col-seq="2">20140121504</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-211</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1712" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1713"><td style="width: 50px;">22</td><td style="width: 300px;" data-col-seq="1">RAJYA SAMPOSHIT HIGH SCHOOL KAKARIA</td><td data-col-seq="2">20140503406</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-212</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">LAPUNG</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1713" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1714"><td style="width: 50px;">23</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT +2 HIGH SCHOOL SOSAI MANDAR, RANCHI</td><td data-col-seq="2">20140406303</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-213</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">MANDAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1714" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1715"><td style="width: 50px;">24</td><td style="width: 300px;" data-col-seq="1">PROJECT GIRLS HIGH SCHOOL,TANGERBASULI</td><td data-col-seq="2">20140406802</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-214</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">MANDAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1715" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1716"><td style="width: 50px;">25</td><td style="width: 300px;" data-col-seq="1">PROJECT HIGH SCHOOL BARGAWAN</td><td data-col-seq="2">20140800803</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-216</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">NAMKUM</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1716" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1717"><td style="width: 50px;">26</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HIGH SCHOOL DUNDIGARHA</td><td data-col-seq="2">20140802401</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-217</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">NAMKUM</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1717" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1718"><td style="width: 50px;">27</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT HIGH SCHOOL RAHE.</td><td data-col-seq="2">20142500208</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-220</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">RAHE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1718" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1719"><td style="width: 50px;">28</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT CHOTANAGPUR RAJ +2 HIGH SCHOOL RATU</td><td data-col-seq="2">20140207808</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-221</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">RATU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1719" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1720"><td style="width: 50px;">29</td><td style="width: 300px;" data-col-seq="1">GOVT. UPGRADED HIGH SCHOOL PARASI ,TAMAR, RANCHI</td><td data-col-seq="2">20142009601</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-222</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">TAMAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1720" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1721"><td style="width: 50px;">30</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT +2 HIGH SCHOOL TAMAR</td><td data-col-seq="2">20142011510</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-223</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">TAMAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1721" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							</tbody></table></div><div class="summary">Showing <b>1-30</b> of <b>30</b> items.</div></div></div>                    </div>
+											</div>        
+										</div>
+									</div>
+								</div>
+							</div>     </div>
+										</div>
+									</div></td><td style="width: 450px;" data-col-seq="2">Ravikant  Singh</td><td style="width: 150px;" data-col-seq="3">8521779884</td><td style="width: 150px;" data-col-seq="4">ravi9955469016@gmail.com</td><td style="width: 250px;" data-col-seq="5">30</td><td style="width: 50px;" data-col-seq="6"><span class="label label-success">Active</span></td><td style="width: 100px;"><a href="/yadmin/process/empdetails/view/1293" title="View" data-pjax="0"><span class="btn btn-xs btn-primary fa fa-eye"></span></a><a href="/yadmin/process/empdetails/update/1293" title="Update" data-pjax="0"><span class="btn btn-xs btn-warning fa fa-edit"></span></a></td></tr>
+							<tr data-key="1215"><td style="width: 50px;">2</td><td class="w4_e73847b7 skip-export kv-align-center kv-align-middle kv-expand-icon-cell" title="Expand" style="width: 50px;" data-col-seq="1">        <div class="kv-expand-row ">
+										<div class="kv-expand-icon kv-state-expanded"><span class="glyphicon glyphicon-expand"></span></div>
+										<div class="kv-expand-detail skip-export" style="display:none;">
+											<div class="kv-state-enable skip-export kv-expanded-row w4_e73847b7" data-index="1" data-key="1215"><div class="product-manage-index">
+								<div class='row'>
+									<div class='col-sm-12'>
+										<div class="box-header with-border">
+											<h3 class="box-title"><i class="fa fa-check-circle"></i> Assigned School List</h3>
+										</div>
+										<div class="box box-info">
+											<div class='box-body box-no-padding'>
+												<div class='box-body box-no-padding'>  
+													<div id="w12-pjax" data-pjax-container="" data-pjax-timeout="1000"><div class="kv-loader-overlay"><div class="kv-loader"></div></div><div id="w12" class="grid-view is-bs3 hide-resize" data-krajee-grid="kvGridInit_4c8e1f15" data-krajee-ps="ps_w12_container"><div id="w12-container" class="table-responsive kv-grid-container"><table class="kv-grid-table table table-hover table-bordered table-striped kv-table-wrap"><thead>
+							
+							<tr><th>#</th><th data-col-seq="1">School Name</th><th data-col-seq="2">UDISE Code</th><th data-col-seq="3">BCCL Code</th><th data-col-seq="4">District Name</th><th data-col-seq="5">Block Name</th><th class="action-column">Action</th></tr>
+							
+							</thead>
+							<tbody>
+							<tr data-key="1454"><td style="width: 50px;">1</td><td style="width: 300px;" data-col-seq="1">KGBV BERO</td><td data-col-seq="2">20140700310</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-185</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BERO</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1454" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1455"><td style="width: 50px;">2</td><td style="width: 300px;" data-col-seq="1">KGBV BUNDU</td><td data-col-seq="2">20141808205</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-186</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BUNDU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1455" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1456"><td style="width: 50px;">3</td><td style="width: 300px;" data-col-seq="1">KGBV BURMU</td><td data-col-seq="2">20140608604</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-187</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BURMU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1456" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1457"><td style="width: 50px;">4</td><td style="width: 300px;" data-col-seq="1">KGBV CHANHO</td><td data-col-seq="2">20140302002</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-188</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">CHANHO</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1457" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1458"><td style="width: 50px;">5</td><td style="width: 300px;" data-col-seq="1">KGBV LAPUNG</td><td data-col-seq="2">20140504505</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-190</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">LAPUNG</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1458" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1459"><td style="width: 50px;">6</td><td style="width: 300px;" data-col-seq="1">KGBV MANDER</td><td data-col-seq="2">20140406305</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-191</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">MANDAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1459" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1460"><td style="width: 50px;">7</td><td style="width: 300px;" data-col-seq="1">KGBV NAMKUM</td><td data-col-seq="2">20140806605</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-192</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">NAMKUM</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1460" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1461"><td style="width: 50px;">8</td><td style="width: 300px;" data-col-seq="1">KGBV SONAHATU</td><td data-col-seq="2">20141902304</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-195</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">SONAHATU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1461" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1462"><td style="width: 50px;">9</td><td style="width: 300px;" data-col-seq="1">KGBV TAMAR</td><td data-col-seq="2">20142011513</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-196</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">TAMAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1462" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1463"><td style="width: 50px;">10</td><td style="width: 300px;" data-col-seq="1">MARWARI +2 HIGH SCHOOL RANCHI</td><td data-col-seq="2">20140120012</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-197</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1463" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1464"><td style="width: 50px;">11</td><td style="width: 300px;" data-col-seq="1">GOVT HIGH SCHOOL LAPUNG</td><td data-col-seq="2">20140506501</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-198</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">LAPUNG</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1464" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1465"><td style="width: 50px;">12</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HIGH SCHOOL UCHARI</td><td data-col-seq="2">20140405202</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-199</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">MANDAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1465" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1466"><td style="width: 50px;">13</td><td style="width: 300px;" data-col-seq="1">GOVT.UPGRADED HIGH SCHOOL BURHADIH</td><td data-col-seq="2">20141800501</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-201</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BUNDU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1466" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1467"><td style="width: 50px;">14</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT RSMM +2 HIGH SCHOOL BUNDU,RANCHI</td><td data-col-seq="2">20141803503</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-202</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BUNDU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1467" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1468"><td style="width: 50px;">15</td><td style="width: 300px;" data-col-seq="1">PROJECT GIRLS HIGH SCHOOL, THAKURGAON</td><td data-col-seq="2">20140603010</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-203</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BURMU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1468" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1469"><td style="width: 50px;">16</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HIGH SCHOOL MASMANO</td><td data-col-seq="2">20140304401</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-204</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">CHANHO</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1469" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1470"><td style="width: 50px;">17</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT KISAN HIGH SCHOOL, PATRATU</td><td data-col-seq="2">20140305202</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-205</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">CHANHO</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1470" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1471"><td style="width: 50px;">18</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HIGH SCHOOL KUMHARIYA</td><td data-col-seq="2">20140107701</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-208</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1471" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1472"><td style="width: 50px;">19</td><td style="width: 300px;" data-col-seq="1">GOVT HIGH SCHOOL BAZRA HEHAL RANCHI</td><td data-col-seq="2">20140115517</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-209</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1472" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1473"><td style="width: 50px;">20</td><td style="width: 300px;" data-col-seq="1">RAJKIYA A.S.T.V.S. +2 ZILA VIDYALAYA RANCHI</td><td data-col-seq="2">20140120009</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-210</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1473" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1474"><td style="width: 50px;">21</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT T.V.S. HIGH SCHOOL, JAGANNATHPUR, RANCHI</td><td data-col-seq="2">20140121504</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-211</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1474" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1475"><td style="width: 50px;">22</td><td style="width: 300px;" data-col-seq="1">RAJYA SAMPOSHIT HIGH SCHOOL KAKARIA</td><td data-col-seq="2">20140503406</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-212</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">LAPUNG</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1475" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1476"><td style="width: 50px;">23</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT +2 HIGH SCHOOL SOSAI MANDAR, RANCHI</td><td data-col-seq="2">20140406303</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-213</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">MANDAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1476" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1477"><td style="width: 50px;">24</td><td style="width: 300px;" data-col-seq="1">PROJECT GIRLS HIGH SCHOOL,TANGERBASULI</td><td data-col-seq="2">20140406802</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-214</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">MANDAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1477" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1478"><td style="width: 50px;">25</td><td style="width: 300px;" data-col-seq="1">PROJECT HIGH SCHOOL BARGAWAN</td><td data-col-seq="2">20140800803</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-216</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">NAMKUM</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1478" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1479"><td style="width: 50px;">26</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HIGH SCHOOL DUNDIGARHA</td><td data-col-seq="2">20140802401</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-217</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">NAMKUM</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1479" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1480"><td style="width: 50px;">27</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT HIGH SCHOOL RAHE.</td><td data-col-seq="2">20142500208</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-220</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">RAHE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1480" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1481"><td style="width: 50px;">28</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT CHOTANAGPUR RAJ +2 HIGH SCHOOL RATU</td><td data-col-seq="2">20140207808</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-221</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">RATU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1481" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1482"><td style="width: 50px;">29</td><td style="width: 300px;" data-col-seq="1">GOVT. UPGRADED HIGH SCHOOL PARASI ,TAMAR, RANCHI</td><td data-col-seq="2">20142009601</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-222</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">TAMAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1482" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1483"><td style="width: 50px;">30</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT +2 HIGH SCHOOL TAMAR</td><td data-col-seq="2">20142011510</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-223</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">TAMAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1483" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							</tbody></table></div><div class="summary">Showing <b>1-30</b> of <b>30</b> items.</div></div></div>                    </div>
+											</div>        
+										</div>
+									</div>
+								</div>
+							</div>     </div>
+										</div>
+									</div></td><td style="width: 450px;" data-col-seq="2">Vijay Ahir</td><td style="width: 150px;" data-col-seq="3">9709125265</td><td style="width: 150px;" data-col-seq="4">vijayahir1996@gmail.com</td><td style="width: 250px;" data-col-seq="5">30</td><td style="width: 50px;" data-col-seq="6"><span class="label label-danger">Resigned</span></td><td style="width: 100px;"><a href="/yadmin/process/empdetails/view/1215" title="View" data-pjax="0"><span class="btn btn-xs btn-primary fa fa-eye"></span></a><a href="/yadmin/process/empdetails/update/1215" title="Update" data-pjax="0"><span class="btn btn-xs btn-warning fa fa-edit"></span></a></td></tr>
+							<tr data-key="556"><td style="width: 50px;">3</td><td class="w4_e73847b7 skip-export kv-align-center kv-align-middle kv-expand-icon-cell" title="Expand" style="width: 50px;" data-col-seq="1">        <div class="kv-expand-row ">
+										<div class="kv-expand-icon kv-state-expanded"><span class="glyphicon glyphicon-expand"></span></div>
+										<div class="kv-expand-detail skip-export" style="display:none;">
+											<div class="kv-state-enable skip-export kv-expanded-row w4_e73847b7" data-index="2" data-key="556"><div class="product-manage-index">
+								<div class='row'>
+									<div class='col-sm-12'>
+										<div class="box-header with-border">
+											<h3 class="box-title"><i class="fa fa-check-circle"></i> Assigned School List</h3>
+										</div>
+										<div class="box box-info">
+											<div class='box-body box-no-padding'>
+												<div class='box-body box-no-padding'>  
+													<div id="w16-pjax" data-pjax-container="" data-pjax-timeout="1000"><div class="kv-loader-overlay"><div class="kv-loader"></div></div><div id="w16" class="grid-view is-bs3 hide-resize" data-krajee-grid="kvGridInit_0a8aea48" data-krajee-ps="ps_w16_container"><div id="w16-container" class="table-responsive kv-grid-container"><table class="kv-grid-table table table-hover table-bordered table-striped kv-table-wrap"><thead>
+							
+							<tr><th>#</th><th data-col-seq="1">School Name</th><th data-col-seq="2">UDISE Code</th><th data-col-seq="3">BCCL Code</th><th data-col-seq="4">District Name</th><th data-col-seq="5">Block Name</th><th class="action-column">Action</th></tr>
+							
+							</thead>
+							<tbody>
+							<tr data-key="1285"><td style="width: 50px;">1</td><td style="width: 300px;" data-col-seq="1">KGBV BERO</td><td data-col-seq="2">20140700310</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-185</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BERO</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1285" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1286"><td style="width: 50px;">2</td><td style="width: 300px;" data-col-seq="1">KGBV BUNDU</td><td data-col-seq="2">20141808205</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-186</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BUNDU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1286" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1287"><td style="width: 50px;">3</td><td style="width: 300px;" data-col-seq="1">KGBV BURMU</td><td data-col-seq="2">20140608604</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-187</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BURMU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1287" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1288"><td style="width: 50px;">4</td><td style="width: 300px;" data-col-seq="1">KGBV CHANHO</td><td data-col-seq="2">20140302002</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-188</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">CHANHO</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1288" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1289"><td style="width: 50px;">5</td><td style="width: 300px;" data-col-seq="1">KGBV LAPUNG</td><td data-col-seq="2">20140504505</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-190</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">LAPUNG</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1289" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1290"><td style="width: 50px;">6</td><td style="width: 300px;" data-col-seq="1">KGBV MANDER</td><td data-col-seq="2">20140406305</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-191</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">MANDAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1290" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1291"><td style="width: 50px;">7</td><td style="width: 300px;" data-col-seq="1">KGBV NAMKUM</td><td data-col-seq="2">20140806605</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-192</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">NAMKUM</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1291" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1292"><td style="width: 50px;">8</td><td style="width: 300px;" data-col-seq="1">KGBV SONAHATU</td><td data-col-seq="2">20141902304</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-195</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">SONAHATU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1292" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1293"><td style="width: 50px;">9</td><td style="width: 300px;" data-col-seq="1">KGBV TAMAR</td><td data-col-seq="2">20142011513</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-196</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">TAMAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1293" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1294"><td style="width: 50px;">10</td><td style="width: 300px;" data-col-seq="1">MARWARI +2 HIGH SCHOOL RANCHI</td><td data-col-seq="2">20140120012</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-197</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1294" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1295"><td style="width: 50px;">11</td><td style="width: 300px;" data-col-seq="1">GOVT HIGH SCHOOL LAPUNG</td><td data-col-seq="2">20140506501</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-198</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">LAPUNG</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1295" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1296"><td style="width: 50px;">12</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HIGH SCHOOL UCHARI</td><td data-col-seq="2">20140405202</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-199</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">MANDAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1296" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1297"><td style="width: 50px;">13</td><td style="width: 300px;" data-col-seq="1">GOVT.UPGRADED HIGH SCHOOL BURHADIH</td><td data-col-seq="2">20141800501</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-201</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BUNDU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1297" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1298"><td style="width: 50px;">14</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT RSMM +2 HIGH SCHOOL BUNDU,RANCHI</td><td data-col-seq="2">20141803503</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-202</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BUNDU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1298" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1299"><td style="width: 50px;">15</td><td style="width: 300px;" data-col-seq="1">PROJECT GIRLS HIGH SCHOOL, THAKURGAON</td><td data-col-seq="2">20140603010</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-203</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">BURMU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1299" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1300"><td style="width: 50px;">16</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HIGH SCHOOL MASMANO</td><td data-col-seq="2">20140304401</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-204</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">CHANHO</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1300" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1301"><td style="width: 50px;">17</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT KISAN HIGH SCHOOL, PATRATU</td><td data-col-seq="2">20140305202</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-205</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">CHANHO</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1301" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1302"><td style="width: 50px;">18</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HIGH SCHOOL KUMHARIYA</td><td data-col-seq="2">20140107701</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-208</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1302" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1303"><td style="width: 50px;">19</td><td style="width: 300px;" data-col-seq="1">GOVT HIGH SCHOOL BAZRA HEHAL RANCHI</td><td data-col-seq="2">20140115517</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-209</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1303" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1304"><td style="width: 50px;">20</td><td style="width: 300px;" data-col-seq="1">RAJKIYA A.S.T.V.S. +2 ZILA VIDYALAYA RANCHI</td><td data-col-seq="2">20140120009</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-210</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1304" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1305"><td style="width: 50px;">21</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT T.V.S. HIGH SCHOOL, JAGANNATHPUR, RANCHI</td><td data-col-seq="2">20140121504</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-211</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">KANKE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1305" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1306"><td style="width: 50px;">22</td><td style="width: 300px;" data-col-seq="1">RAJYA SAMPOSHIT HIGH SCHOOL KAKARIA</td><td data-col-seq="2">20140503406</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-212</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">LAPUNG</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1306" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1307"><td style="width: 50px;">23</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT +2 HIGH SCHOOL SOSAI MANDAR, RANCHI</td><td data-col-seq="2">20140406303</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-213</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">MANDAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1307" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1308"><td style="width: 50px;">24</td><td style="width: 300px;" data-col-seq="1">PROJECT GIRLS HIGH SCHOOL,TANGERBASULI</td><td data-col-seq="2">20140406802</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-214</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">MANDAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1308" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1309"><td style="width: 50px;">25</td><td style="width: 300px;" data-col-seq="1">PROJECT HIGH SCHOOL BARGAWAN</td><td data-col-seq="2">20140800803</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-216</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">NAMKUM</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1309" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1310"><td style="width: 50px;">26</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HIGH SCHOOL DUNDIGARHA</td><td data-col-seq="2">20140802401</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-217</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">NAMKUM</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1310" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1311"><td style="width: 50px;">27</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT HIGH SCHOOL RAHE.</td><td data-col-seq="2">20142500208</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-220</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">RAHE</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1311" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1312"><td style="width: 50px;">28</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT CHOTANAGPUR RAJ +2 HIGH SCHOOL RATU</td><td data-col-seq="2">20140207808</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-221</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">RATU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1312" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1313"><td style="width: 50px;">29</td><td style="width: 300px;" data-col-seq="1">GOVT. UPGRADED HIGH SCHOOL PARASI ,TAMAR, RANCHI</td><td data-col-seq="2">20142009601</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-222</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">TAMAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1313" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1314"><td style="width: 50px;">30</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT +2 HIGH SCHOOL TAMAR</td><td data-col-seq="2">20142011510</td><td data-col-seq="3">BCCL-JH-ICT2-RAN-223</td><td data-col-seq="4">RANCHI</td><td data-col-seq="5">TAMAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1314" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							</tbody></table></div><div class="summary">Showing <b>1-30</b> of <b>30</b> items.</div></div></div>                    </div>
+											</div>        
+										</div>
+									</div>
+								</div>
+							</div>     </div>
+										</div>
+									</div></td><td style="width: 450px;" data-col-seq="2">Srikant Kumar</td><td style="width: 150px;" data-col-seq="3">7004490552</td><td style="width: 150px;" data-col-seq="4">sri49313@gmail.com</td><td style="width: 250px;" data-col-seq="5">30</td><td style="width: 50px;" data-col-seq="6"><span class="label label-danger">Resigned</span></td><td style="width: 100px;"><a href="/yadmin/process/empdetails/view/556" title="View" data-pjax="0"><span class="btn btn-xs btn-primary fa fa-eye"></span></a><a href="/yadmin/process/empdetails/update/556" title="Update" data-pjax="0"><span class="btn btn-xs btn-warning fa fa-edit"></span></a></td></tr>
+							<tr data-key="555"><td style="width: 50px;">4</td><td class="w4_e73847b7 skip-export kv-align-center kv-align-middle kv-expand-icon-cell" title="Expand" style="width: 50px;" data-col-seq="1">        <div class="kv-expand-row ">
+										<div class="kv-expand-icon kv-state-expanded"><span class="glyphicon glyphicon-expand"></span></div>
+										<div class="kv-expand-detail skip-export" style="display:none;">
+											<div class="kv-state-enable skip-export kv-expanded-row w4_e73847b7" data-index="3" data-key="555"><div class="product-manage-index">
+								<div class='row'>
+									<div class='col-sm-12'>
+										<div class="box-header with-border">
+											<h3 class="box-title"><i class="fa fa-check-circle"></i> Assigned School List</h3>
+										</div>
+										<div class="box box-info">
+											<div class='box-body box-no-padding'>
+												<div class='box-body box-no-padding'>  
+													<div id="w20-pjax" data-pjax-container="" data-pjax-timeout="1000"><div class="kv-loader-overlay"><div class="kv-loader"></div></div><div id="w20" class="grid-view is-bs3 hide-resize" data-krajee-grid="kvGridInit_cf87eda6" data-krajee-ps="ps_w20_container"><div id="w20-container" class="table-responsive kv-grid-container"><table class="kv-grid-table table table-hover table-bordered table-striped kv-table-wrap"><thead>
+							
+							<tr><th>#</th><th data-col-seq="1">School Name</th><th data-col-seq="2">UDISE Code</th><th data-col-seq="3">BCCL Code</th><th data-col-seq="4">District Name</th><th data-col-seq="5">Block Name</th><th class="action-column">Action</th></tr>
+							
+							</thead>
+							<tbody>
+							<tr data-key="1226"><td style="width: 50px;">1</td><td style="width: 300px;" data-col-seq="1">K G B V BAHRAGORA</td><td data-col-seq="2">20180704803</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-126</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">BAHRAGORA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1226" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1227"><td style="width: 50px;">2</td><td style="width: 300px;" data-col-seq="1">K G B V CHAKULIA</td><td data-col-seq="2">20180823915</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-127</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">CHAKULIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1227" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1228"><td style="width: 50px;">3</td><td style="width: 300px;" data-col-seq="1">K G B V DHALBHUMGARH</td><td data-col-seq="2">20180509601</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-128</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">DHALBHUMGARH</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1228" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1229"><td style="width: 50px;">4</td><td style="width: 300px;" data-col-seq="1">K G B V DUMARIA</td><td data-col-seq="2">20180405606</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-129</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">DUMARIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1229" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1230"><td style="width: 50px;">5</td><td style="width: 300px;" data-col-seq="1">K G B V GHATSHILA</td><td data-col-seq="2">20180611102</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-130</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">GHATSHILA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1230" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1231"><td style="width: 50px;">6</td><td style="width: 300px;" data-col-seq="1">K G B V JAMSHEDPUR</td><td data-col-seq="2">20180316704</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-131</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">JAMSHEDPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1231" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1232"><td style="width: 50px;">7</td><td style="width: 300px;" data-col-seq="1">K G B V MUSABANI</td><td data-col-seq="2">20180905404</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-132</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">MUSABANI</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1232" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1233"><td style="width: 50px;">8</td><td style="width: 300px;" data-col-seq="1">K G B V PATAMDA</td><td data-col-seq="2">20180109908</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-133</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">PATAMDA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1233" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1234"><td style="width: 50px;">9</td><td style="width: 300px;" data-col-seq="1">UPGRADED GOVT +2 SCHOOL SHIMULDANGA, J1</td><td data-col-seq="2">20180306701</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-135</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">JAMSHEDPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1234" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1235"><td style="width: 50px;">10</td><td style="width: 300px;" data-col-seq="1">HS PROJECT BALIKA BAHRAGORA</td><td data-col-seq="2">20180704305</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-137</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">BAHRAGORA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1235" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1236"><td style="width: 50px;">11</td><td style="width: 300px;" data-col-seq="1">UPGRADED GOVT H.S.JHANJHIYA</td><td data-col-seq="2">20180717901</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-138</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">BAHRAGORA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1236" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1237"><td style="width: 50px;">12</td><td style="width: 300px;" data-col-seq="1">L.B.S.H/S JAYPUR</td><td data-col-seq="2">20180719402</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-139</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">BAHRAGORA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1237" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1238"><td style="width: 50px;">13</td><td style="width: 300px;" data-col-seq="1">UPGRADE HIGH SCHOOL SHASAN ORIYA</td><td data-col-seq="2">20180735001</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-140</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">BAHRAGORA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1238" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1239"><td style="width: 50px;">14</td><td style="width: 300px;" data-col-seq="1">UPG GOVT HS RASIKNAGAR</td><td data-col-seq="2">20181004601</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-141</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">BORAM</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1239" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1240"><td style="width: 50px;">15</td><td style="width: 300px;" data-col-seq="1">UPG GOVT H.S.JODAM</td><td data-col-seq="2">20180817601</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-142</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">CHAKULIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1240" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1241"><td style="width: 50px;">16</td><td style="width: 300px;" data-col-seq="1">UPG GOVT HS BEND</td><td data-col-seq="2">20180822602</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-143</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">CHAKULIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1241" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1242"><td style="width: 50px;">17</td><td style="width: 300px;" data-col-seq="1">UPGRADED GOVT H.S.BALIBANDH</td><td data-col-seq="2">20180824601</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-144</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">CHAKULIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1242" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1243"><td style="width: 50px;">18</td><td style="width: 300px;" data-col-seq="1">UPG GOVT HS GOHALDANGA</td><td data-col-seq="2">20180829701</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-145</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">CHAKULIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1243" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1244"><td style="width: 50px;">19</td><td style="width: 300px;" data-col-seq="1">UPGRADED HIGH SCHOOL, HALDAJURI</td><td data-col-seq="2">20180503601</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-146</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">DHALBHUMGARH</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1244" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1245"><td style="width: 50px;">20</td><td style="width: 300px;" data-col-seq="1">H.S. PROJECTBALIKA DUMARIA</td><td data-col-seq="2">20180405609</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-147</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">DUMARIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1245" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1246"><td style="width: 50px;">21</td><td style="width: 300px;" data-col-seq="1">MODEL SCHOOL DUMARIA</td><td data-col-seq="2">20180409704</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-148</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">DUMARIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1246" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1247"><td style="width: 50px;">22</td><td style="width: 300px;" data-col-seq="1">UPGRADED GOVT H.S.KUKRADIH, J2</td><td data-col-seq="2">20180315102</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-149</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">JAMSHEDPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1247" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1248"><td style="width: 50px;">23</td><td style="width: 300px;" data-col-seq="1">JUGSALAI GIRLS HIGH SCHOOL, JAMSHEDPUR</td><td data-col-seq="2">20180317710</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-150</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">JAMSHEDPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1248" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1249"><td style="width: 50px;">24</td><td style="width: 300px;" data-col-seq="1">UPGRADED GOVT H.S.BENASOL (OU)</td><td data-col-seq="2">20180901101</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-151</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">MUSABANI</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1249" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1250"><td style="width: 50px;">25</td><td style="width: 300px;" data-col-seq="1">UPGRADE HIGH SCHOOL MATIGORA</td><td data-col-seq="2">20180902801</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-152</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">MUSABANI</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1250" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1251"><td style="width: 50px;">26</td><td style="width: 300px;" data-col-seq="1">UPGRADE HIGH SCHOOL KOILISUTA , MOSABANI</td><td data-col-seq="2">20180905102</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-153</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">MUSABANI</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1251" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1252"><td style="width: 50px;">27</td><td style="width: 300px;" data-col-seq="1">H. S. PROJECT B - MUSABANI</td><td data-col-seq="2">20180906501</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-154</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">MUSABANI</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1252" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1253"><td style="width: 50px;">28</td><td style="width: 300px;" data-col-seq="1">PROJECT HS MACHA KANYA PATAMDA</td><td data-col-seq="2">20180111303</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-155</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">PATAMDA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1253" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1254"><td style="width: 50px;">29</td><td style="width: 300px;" data-col-seq="1">UPG GOVT HS GOBARGHUSI</td><td data-col-seq="2">20180118005</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-156</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">PATAMDA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1254" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1255"><td style="width: 50px;">30</td><td style="width: 300px;" data-col-seq="1">SORVADAYA HIGH SCHOOL, MADHABPUR</td><td data-col-seq="2">20181006302</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-157</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">PATAMDA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1255" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							</tbody></table></div><div class="summary">Showing <b>1-30</b> of <b>30</b> items.</div></div></div>                    </div>
+											</div>        
+										</div>
+									</div>
+								</div>
+							</div>     </div>
+										</div>
+									</div></td><td style="width: 450px;" data-col-seq="2">Sadhan Dash</td><td style="width: 150px;" data-col-seq="3">7004406125</td><td style="width: 150px;" data-col-seq="4">sadhan.jsr2012@gmail.com</td><td style="width: 250px;" data-col-seq="5">30</td><td style="width: 50px;" data-col-seq="6"><span class="label label-danger">Resigned</span></td><td style="width: 100px;"><a href="/yadmin/process/empdetails/view/555" title="View" data-pjax="0"><span class="btn btn-xs btn-primary fa fa-eye"></span></a><a href="/yadmin/process/empdetails/update/555" title="Update" data-pjax="0"><span class="btn btn-xs btn-warning fa fa-edit"></span></a></td></tr>
+							<tr data-key="554"><td style="width: 50px;">5</td><td class="w4_e73847b7 skip-export kv-align-center kv-align-middle kv-expand-icon-cell" title="Expand" style="width: 50px;" data-col-seq="1">        <div class="kv-expand-row ">
+										<div class="kv-expand-icon kv-state-expanded"><span class="glyphicon glyphicon-expand"></span></div>
+										<div class="kv-expand-detail skip-export" style="display:none;">
+											<div class="kv-state-enable skip-export kv-expanded-row w4_e73847b7" data-index="4" data-key="554"><div class="product-manage-index">
+								<div class='row'>
+									<div class='col-sm-12'>
+										<div class="box-header with-border">
+											<h3 class="box-title"><i class="fa fa-check-circle"></i> Assigned School List</h3>
+										</div>
+										<div class="box box-info">
+											<div class='box-body box-no-padding'>
+												<div class='box-body box-no-padding'>  
+													<div id="w24-pjax" data-pjax-container="" data-pjax-timeout="1000"><div class="kv-loader-overlay"><div class="kv-loader"></div></div><div id="w24" class="grid-view is-bs3 hide-resize" data-krajee-grid="kvGridInit_3b436367" data-krajee-ps="ps_w24_container"><div id="w24-container" class="table-responsive kv-grid-container"><table class="kv-grid-table table table-hover table-bordered table-striped kv-table-wrap"><thead>
+							
+							<tr><th>#</th><th data-col-seq="1">School Name</th><th data-col-seq="2">UDISE Code</th><th data-col-seq="3">BCCL Code</th><th data-col-seq="4">District Name</th><th data-col-seq="5">Block Name</th><th class="action-column">Action</th></tr>
+							
+							</thead>
+							<tbody>
+							<tr data-key="1135"><td style="width: 50px;">1</td><td style="width: 300px;" data-col-seq="1">K G B V BAHRAGORA</td><td data-col-seq="2">20180704803</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-126</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">BAHRAGORA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1135" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1136"><td style="width: 50px;">2</td><td style="width: 300px;" data-col-seq="1">K G B V CHAKULIA</td><td data-col-seq="2">20180823915</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-127</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">CHAKULIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1136" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1137"><td style="width: 50px;">3</td><td style="width: 300px;" data-col-seq="1">K G B V DHALBHUMGARH</td><td data-col-seq="2">20180509601</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-128</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">DHALBHUMGARH</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1137" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1138"><td style="width: 50px;">4</td><td style="width: 300px;" data-col-seq="1">K G B V DUMARIA</td><td data-col-seq="2">20180405606</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-129</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">DUMARIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1138" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1139"><td style="width: 50px;">5</td><td style="width: 300px;" data-col-seq="1">K G B V GHATSHILA</td><td data-col-seq="2">20180611102</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-130</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">GHATSHILA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1139" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1140"><td style="width: 50px;">6</td><td style="width: 300px;" data-col-seq="1">K G B V JAMSHEDPUR</td><td data-col-seq="2">20180316704</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-131</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">JAMSHEDPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1140" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1141"><td style="width: 50px;">7</td><td style="width: 300px;" data-col-seq="1">K G B V MUSABANI</td><td data-col-seq="2">20180905404</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-132</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">MUSABANI</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1141" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1142"><td style="width: 50px;">8</td><td style="width: 300px;" data-col-seq="1">K G B V PATAMDA</td><td data-col-seq="2">20180109908</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-133</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">PATAMDA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1142" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1143"><td style="width: 50px;">9</td><td style="width: 300px;" data-col-seq="1">UPGRADED GOVT +2 SCHOOL SHIMULDANGA, J1</td><td data-col-seq="2">20180306701</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-135</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">JAMSHEDPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1143" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1144"><td style="width: 50px;">10</td><td style="width: 300px;" data-col-seq="1">HS PROJECT BALIKA BAHRAGORA</td><td data-col-seq="2">20180704305</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-137</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">BAHRAGORA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1144" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1145"><td style="width: 50px;">11</td><td style="width: 300px;" data-col-seq="1">UPGRADED GOVT H.S.JHANJHIYA</td><td data-col-seq="2">20180717901</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-138</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">BAHRAGORA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1145" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1146"><td style="width: 50px;">12</td><td style="width: 300px;" data-col-seq="1">L.B.S.H/S JAYPUR</td><td data-col-seq="2">20180719402</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-139</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">BAHRAGORA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1146" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1147"><td style="width: 50px;">13</td><td style="width: 300px;" data-col-seq="1">UPGRADE HIGH SCHOOL SHASAN ORIYA</td><td data-col-seq="2">20180735001</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-140</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">BAHRAGORA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1147" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1148"><td style="width: 50px;">14</td><td style="width: 300px;" data-col-seq="1">UPG GOVT HS RASIKNAGAR</td><td data-col-seq="2">20181004601</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-141</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">BORAM</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1148" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1149"><td style="width: 50px;">15</td><td style="width: 300px;" data-col-seq="1">UPG GOVT H.S.JODAM</td><td data-col-seq="2">20180817601</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-142</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">CHAKULIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1149" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1150"><td style="width: 50px;">16</td><td style="width: 300px;" data-col-seq="1">UPG GOVT HS BEND</td><td data-col-seq="2">20180822602</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-143</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">CHAKULIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1150" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1151"><td style="width: 50px;">17</td><td style="width: 300px;" data-col-seq="1">UPGRADED GOVT H.S.BALIBANDH</td><td data-col-seq="2">20180824601</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-144</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">CHAKULIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1151" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1152"><td style="width: 50px;">18</td><td style="width: 300px;" data-col-seq="1">UPG GOVT HS GOHALDANGA</td><td data-col-seq="2">20180829701</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-145</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">CHAKULIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1152" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1153"><td style="width: 50px;">19</td><td style="width: 300px;" data-col-seq="1">UPGRADED HIGH SCHOOL, HALDAJURI</td><td data-col-seq="2">20180503601</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-146</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">DHALBHUMGARH</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1153" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1154"><td style="width: 50px;">20</td><td style="width: 300px;" data-col-seq="1">H.S. PROJECTBALIKA DUMARIA</td><td data-col-seq="2">20180405609</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-147</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">DUMARIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1154" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1155"><td style="width: 50px;">21</td><td style="width: 300px;" data-col-seq="1">MODEL SCHOOL DUMARIA</td><td data-col-seq="2">20180409704</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-148</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">DUMARIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1155" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1156"><td style="width: 50px;">22</td><td style="width: 300px;" data-col-seq="1">UPGRADED GOVT H.S.KUKRADIH, J2</td><td data-col-seq="2">20180315102</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-149</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">JAMSHEDPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1156" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1157"><td style="width: 50px;">23</td><td style="width: 300px;" data-col-seq="1">JUGSALAI GIRLS HIGH SCHOOL, JAMSHEDPUR</td><td data-col-seq="2">20180317710</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-150</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">JAMSHEDPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1157" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1158"><td style="width: 50px;">24</td><td style="width: 300px;" data-col-seq="1">UPGRADED GOVT H.S.BENASOL (OU)</td><td data-col-seq="2">20180901101</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-151</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">MUSABANI</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1158" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1159"><td style="width: 50px;">25</td><td style="width: 300px;" data-col-seq="1">UPGRADE HIGH SCHOOL MATIGORA</td><td data-col-seq="2">20180902801</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-152</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">MUSABANI</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1159" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1160"><td style="width: 50px;">26</td><td style="width: 300px;" data-col-seq="1">UPGRADE HIGH SCHOOL KOILISUTA , MOSABANI</td><td data-col-seq="2">20180905102</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-153</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">MUSABANI</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1160" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1161"><td style="width: 50px;">27</td><td style="width: 300px;" data-col-seq="1">H. S. PROJECT B - MUSABANI</td><td data-col-seq="2">20180906501</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-154</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">MUSABANI</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1161" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1162"><td style="width: 50px;">28</td><td style="width: 300px;" data-col-seq="1">PROJECT HS MACHA KANYA PATAMDA</td><td data-col-seq="2">20180111303</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-155</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">PATAMDA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1162" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1163"><td style="width: 50px;">29</td><td style="width: 300px;" data-col-seq="1">UPG GOVT HS GOBARGHUSI</td><td data-col-seq="2">20180118005</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-156</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">PATAMDA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1163" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1164"><td style="width: 50px;">30</td><td style="width: 300px;" data-col-seq="1">SORVADAYA HIGH SCHOOL, MADHABPUR</td><td data-col-seq="2">20181006302</td><td data-col-seq="3">BCCL-JH-ICT2-PUS-157</td><td data-col-seq="4">PURBI SINGHBHUM</td><td data-col-seq="5">PATAMDA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1164" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							</tbody></table></div><div class="summary">Showing <b>1-30</b> of <b>30</b> items.</div></div></div>                    </div>
+											</div>        
+										</div>
+									</div>
+								</div>
+							</div>     </div>
+										</div>
+									</div></td><td style="width: 450px;" data-col-seq="2">Ashish Gupta</td><td style="width: 150px;" data-col-seq="3">9717019947</td><td style="width: 150px;" data-col-seq="4">ashish.edique@gmail.com</td><td style="width: 250px;" data-col-seq="5">30</td><td style="width: 50px;" data-col-seq="6"><span class="label label-success">Active</span></td><td style="width: 100px;"><a href="/yadmin/process/empdetails/view/554" title="View" data-pjax="0"><span class="btn btn-xs btn-primary fa fa-eye"></span></a><a href="/yadmin/process/empdetails/update/554" title="Update" data-pjax="0"><span class="btn btn-xs btn-warning fa fa-edit"></span></a></td></tr>
+							<tr data-key="177"><td style="width: 50px;">6</td><td class="w4_e73847b7 skip-export kv-align-center kv-align-middle kv-expand-icon-cell" title="Expand" style="width: 50px;" data-col-seq="1">        <div class="kv-expand-row ">
+										<div class="kv-expand-icon kv-state-expanded"><span class="glyphicon glyphicon-expand"></span></div>
+										<div class="kv-expand-detail skip-export" style="display:none;">
+											<div class="kv-state-enable skip-export kv-expanded-row w4_e73847b7" data-index="5" data-key="177"><div class="product-manage-index">
+								<div class='row'>
+									<div class='col-sm-12'>
+										<div class="box-header with-border">
+											<h3 class="box-title"><i class="fa fa-check-circle"></i> Assigned School List</h3>
+										</div>
+										<div class="box box-info">
+											<div class='box-body box-no-padding'>
+												<div class='box-body box-no-padding'>  
+													<div id="w28-pjax" data-pjax-container="" data-pjax-timeout="1000"><div class="kv-loader-overlay"><div class="kv-loader"></div></div><div id="w28" class="grid-view is-bs3 hide-resize" data-krajee-grid="kvGridInit_6d7c4614" data-krajee-ps="ps_w28_container"><div id="w28-container" class="table-responsive kv-grid-container"><table class="kv-grid-table table table-hover table-bordered table-striped kv-table-wrap"><thead>
+							
+							<tr><th>#</th><th data-col-seq="1">School Name</th><th data-col-seq="2">UDISE Code</th><th data-col-seq="3">BCCL Code</th><th data-col-seq="4">District Name</th><th data-col-seq="5">Block Name</th><th class="action-column">Action</th></tr>
+							
+							</thead>
+							<tbody>
+							<tr data-key="1084"><td style="width: 50px;">1</td><td style="width: 300px;" data-col-seq="1">KGBV BHANDRIYA</td><td data-col-seq="2">20010301608</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-001</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">BHANDARIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1084" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1085"><td style="width: 50px;">2</td><td style="width: 300px;" data-col-seq="1">KGBV BHAWANATHPUR</td><td data-col-seq="2">20010604007</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-002</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">BHAWANATHPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1085" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1086"><td style="width: 50px;">3</td><td style="width: 300px;" data-col-seq="1">KGBV CHINIA</td><td data-col-seq="2">20011301802</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-003</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">CHINIA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1086" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1087"><td style="width: 50px;">4</td><td style="width: 300px;" data-col-seq="1">KGBV DANDAI</td><td data-col-seq="2">20011201804</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-004</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">DANDEY</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1087" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1088"><td style="width: 50px;">5</td><td style="width: 300px;" data-col-seq="1">KGBV GARHWA</td><td data-col-seq="2">20010407803</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-005</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">GARHWA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1088" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1089"><td style="width: 50px;">6</td><td style="width: 300px;" data-col-seq="1">KGBV KANDI</td><td data-col-seq="2">20011003509</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-006</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">KANDI</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1089" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1090"><td style="width: 50px;">7</td><td style="width: 300px;" data-col-seq="1">KGBV MANJHIAON</td><td data-col-seq="2">20010201212</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-007</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">MANJHIAON</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1090" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1091"><td style="width: 50px;">8</td><td style="width: 300px;" data-col-seq="1">KGBV MERAL</td><td data-col-seq="2">20010503307</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-008</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">MERAL</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1091" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1092"><td style="width: 50px;">9</td><td style="width: 300px;" data-col-seq="1">KGBV RAMKANDA</td><td data-col-seq="2">20010101105</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-009</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">RAMKANDA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1092" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1093"><td style="width: 50px;">10</td><td style="width: 300px;" data-col-seq="1">KGBV RANKA</td><td data-col-seq="2">20011410804</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-010</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">RANKA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1093" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1094"><td style="width: 50px;">11</td><td style="width: 300px;" data-col-seq="1">GOVT UPG +2 HS LAWAHIKALAN</td><td data-col-seq="2">20011204201</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-011</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">DANDEY</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1094" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1095"><td style="width: 50px;">12</td><td style="width: 300px;" data-col-seq="1">GOVT UPG +2 HS RAMKANDA</td><td data-col-seq="2">20010101101</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-012</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">RAMKANDA</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1095" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1096"><td style="width: 50px;">13</td><td style="width: 300px;" data-col-seq="1">PROJECT HS BHAWNATHPUR</td><td data-col-seq="2">20010602407</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-013</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">BHAWANATHPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1096" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1097"><td style="width: 50px;">14</td><td style="width: 300px;" data-col-seq="1">GOVT UPG HS MORBE</td><td data-col-seq="2">20010201402</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-014</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">MANJHIAON</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1097" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1098"><td style="width: 50px;">15</td><td style="width: 300px;" data-col-seq="1">PROJECT RADHA KRISNA GIRLS HS,MAJHIAON</td><td data-col-seq="2">20010214001</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-015</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">MANJHIAON</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1098" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1099"><td style="width: 50px;">16</td><td style="width: 300px;" data-col-seq="1">UPGRADE HIGH SCHOOL PESHKA</td><td data-col-seq="2">20010505201</td><td data-col-seq="3">BCCL-JH-ICT2-GRW-016</td><td data-col-seq="4">GARHWA</td><td data-col-seq="5">MERAL</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1099" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1100"><td style="width: 50px;">17</td><td style="width: 300px;" data-col-seq="1">KGBV BISHRAMPUR</td><td data-col-seq="2">20020909020</td><td data-col-seq="3">BCCL-JH-ICT2-PAL-073</td><td data-col-seq="4">PALAMU</td><td data-col-seq="5">BISHRAMPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1100" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1101"><td style="width: 50px;">18</td><td style="width: 300px;" data-col-seq="1">KGBV CHHATARPUR</td><td data-col-seq="2">20020602107</td><td data-col-seq="3">BCCL-JH-ICT2-PAL-076</td><td data-col-seq="4">PALAMU</td><td data-col-seq="5">CHHATARPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1101" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1102"><td style="width: 50px;">19</td><td style="width: 300px;" data-col-seq="1">KGBV HARIHARGANJ</td><td data-col-seq="2">20020200109</td><td data-col-seq="3">BCCL-JH-ICT2-PAL-078</td><td data-col-seq="4">PALAMU</td><td data-col-seq="5">HARIHARGANJ</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1102" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1103"><td style="width: 50px;">20</td><td style="width: 300px;" data-col-seq="1">KGBV HUSSAINABAD</td><td data-col-seq="2">20020423709</td><td data-col-seq="3">BCCL-JH-ICT2-PAL-079</td><td data-col-seq="4">PALAMU</td><td data-col-seq="5">HUSAINABAD</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1103" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1104"><td style="width: 50px;">21</td><td style="width: 300px;" data-col-seq="1">KGBV PANDU</td><td data-col-seq="2">20020500111</td><td data-col-seq="3">BCCL-JH-ICT2-PAL-081</td><td data-col-seq="4">PALAMU</td><td data-col-seq="5">PANDU</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1104" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1105"><td style="width: 50px;">22</td><td style="width: 300px;" data-col-seq="1">UPG RAJKIYEKRIT HIGH SCHOOL KETAT</td><td data-col-seq="2">20020908801</td><td data-col-seq="3">BCCL-JH-ICT2-PAL-085</td><td data-col-seq="4">PALAMU</td><td data-col-seq="5">BISHRAMPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1105" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1106"><td style="width: 50px;">23</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT HIGH SCHOOL LALGARH</td><td data-col-seq="2">20020905505</td><td data-col-seq="3">BCCL-JH-ICT2-PAL-086</td><td data-col-seq="4">PALAMU</td><td data-col-seq="5">BISHRAMPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1106" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1107"><td style="width: 50px;">24</td><td style="width: 300px;" data-col-seq="1">UPG RAJKIYEKRIT HIGH SCHOOL TELARI</td><td data-col-seq="2">20020616001</td><td data-col-seq="3">BCCL-JH-ICT2-PAL-088</td><td data-col-seq="4">PALAMU</td><td data-col-seq="5">CHHATARPUR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1107" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1108"><td style="width: 50px;">25</td><td style="width: 300px;" data-col-seq="1">RAJKIYEKRIT HARVE SONBHELI UNCHANGAL SCHOOL CEMENT WORK JAPLA</td><td data-col-seq="2">20020404105</td><td data-col-seq="3">BCCL-JH-ICT2-PAL-090</td><td data-col-seq="4">PALAMU</td><td data-col-seq="5">HUSSAINABAD</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1108" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							<tr data-key="1109"><td style="width: 50px;">26</td><td style="width: 300px;" data-col-seq="1">UPG RAJKIYEKRIT HIGH SCHOOL NAWDIHA BAZAR</td><td data-col-seq="2">20020717502</td><td data-col-seq="3">BCCL-JH-ICT2-PAL-093</td><td data-col-seq="4">PALAMU</td><td data-col-seq="5">NAWDIHA BAZAR</td><td style="width: 50px;"><a href="/yadmin/process/schooldcmapping/delete/1109" title="Delete" data-method="POST" data-pjax="0" data-confirm="Are you sure want to Delete this School?"><span class="btn btn-xs btn-danger fa fa-trash"></span></a></td></tr>
+							</tbody></table></div><div class="summary">Showing <b>1-26</b> of <b>26</b> items.</div></div></div>                    </div>
+											</div>        
+										</div>
+									</div>
+								</div>
+							</div>     </div>
+										</div>
+									</div></td><td style="width: 450px;" data-col-seq="2">Pankaj Kumar Singh</td><td style="width: 150px;" data-col-seq="3">9939502105</td><td style="width: 150px;" data-col-seq="4">pankajsingh036@gmail.com</td><td style="width: 250px;" data-col-seq="5">26</td><td style="width: 50px;" data-col-seq="6"><span class="label label-success">Active</span></td><td style="width: 100px;"><a href="/yadmin/process/empdetails/view/177" title="View" data-pjax="0"><span class="btn btn-xs btn-primary fa fa-eye"></span></a><a href="/yadmin/process/empdetails/update/177" title="Update" data-pjax="0"><span class="btn btn-xs btn-warning fa fa-edit"></span></a></td></tr>
+							<tr data-key="176"><td style="width: 50px;">7</td><td class="w4_e73847b7 skip-export kv-align-center kv-align-middle kv-expand-icon-cell" title="Expand" style="width: 50px;" data-col-seq="1">        <div class="kv-expand-row ">
+										<div class="kv-expand-icon kv-state-expanded"><span class="glyphicon glyphicon-expand"></span></div>
+										<div class="kv-expand-detail skip-export" style="display:none;">
+											<div class="kv-state-enable skip-export kv-expanded-row w4_e73847b7" data-index="6" data-key="176"><div class="product-manage-index">
+								<div class='row'>
+									<div class='col-sm-12'>
+										<div class="box-header with-border">
+											<h3 class="box-title"><i class="fa fa-check-circle"></i> Assigned School List</h3>
+										</div>
+										<div class="box box-info">
+											<div class='box-body box-no-padding'>
+												<div class='box-body box-no-padding'>  
+													<div id="w32-pjax" data-pjax-container="" data-pjax-timeout="1000"><div class="kv-loader-overlay"><div class="kv-loader"></div></div><div id="w32" class="grid-view is-bs3 hide-resize" data-krajee-grid="kvGridInit_ce724967" data-krajee-ps="ps_w32_container"><div id="w32-container" class="table-responsive kv-grid-container"><table class="kv-grid-table table table-hover table-bordered table-striped kv-table-wrap">
+							
+					</table>
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-xs-12 -->
+		</div>
+		<!-- /.row small-spacing -->		
+		<footer class="footer">
+			<ul class="list-inline">
+				<li>© Copyright © 2023 EdiQue Solutions Private Limited. All Rights Reserved</li>
+			</ul>
+		</footer>
+	</div>
+	<!-- /.main-content -->
+</div><!--/#wrapper -->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="assets/script/html5shiv.min.js"></script>
+		<script src="assets/script/respond.min.js"></script>
+	<![endif]-->
+	<!-- 
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="assets/scripts/jquery.min.js"></script>
+	<script src="assets/scripts/modernizr.min.js"></script>
+	<script src="assets/plugin/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/plugin/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="assets/plugin/nprogress/nprogress.js"></script>
+	<script src="assets/plugin/sweet-alert/sweetalert.min.js"></script>
+	<script src="assets/plugin/waves/waves.min.js"></script>
+	<!-- Full Screen Plugin -->
+	<script src="assets/plugin/fullscreen/jquery.fullscreen-min.js"></script>
+
+	<!-- Data Tables -->
+	<script src="assets/plugin/datatables/media/js/jquery.dataTables.min.js"></script>
+	<script src="assets/plugin/datatables/media/js/dataTables.bootstrap.min.js"></script>
+	<script src="assets/plugin/datatables/extensions/Responsive/js/dataTables.responsive.min.js"></script>
+	<script src="assets/plugin/datatables/extensions/Responsive/js/responsive.bootstrap.min.js"></script>
+	<script src="assets/scripts/datatables.demo.min.js"></script>
+
+	<script src="assets/scripts/main.min.js"></script>
+	<script src="assets/color-switcher/color-switcher.min.js"></script>
+</body>
+</html>

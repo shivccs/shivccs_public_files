@@ -1,0 +1,3165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Home - Ninja Admin Template</title>
+
+	<!-- Main Styles -->
+	<link rel="stylesheet" href="assets/styles/style.min.css">
+
+	<!-- mCustomScrollbar -->
+	<link rel="stylesheet" href="assets/plugin/mCustomScrollbar/jquery.mCustomScrollbar.min.css">
+
+	<!-- Waves Effect -->
+	<link rel="stylesheet" href="assets/plugin/waves/waves.min.css">
+
+	<!-- Sweet Alert -->
+	<link rel="stylesheet" href="assets/plugin/sweet-alert/sweetalert.css">
+	
+	<!-- Percent Circle -->
+	<link rel="stylesheet" href="assets/plugin/percircle/css/percircle.css">
+
+	<!-- Chartist Chart -->
+	<link rel="stylesheet" href="assets/plugin/chart/chartist/chartist.min.css">
+	
+	<link rel="stylesheet" href="assets/plugin/chart/morris/morris.min.css">
+	<link rel="stylesheet" href="assets/plugin/chart/morris/morris.css">
+
+	<!-- FullCalendar -->
+	<link rel="stylesheet" href="assets/plugin/fullcalendar/fullcalendar.min.css">
+	<link rel="stylesheet" href="assets/plugin/fullcalendar/fullcalendar.print.css" media='print'>
+
+	<!-- Color Picker -->
+	<link rel="stylesheet" href="assets/color-switcher/color-switcher.min.css">
+
+
+
+
+	<!-- FlexDatalist -->
+	<link rel="stylesheet" href="assets/plugin/flexdatalist/jquery.flexdatalist.min.css">
+
+	<!-- Popover -->
+	<link rel="stylesheet" href="assets/plugin/popover/jquery.popSelect.min.css">
+
+	<!-- Select2 -->
+	<link rel="stylesheet" href="assets/plugin/select2/css/select2.min.css">
+
+	<!-- Timepicker -->
+	<link rel="stylesheet" href="assets/plugin/timepicker/bootstrap-timepicker.min.css">
+
+	<!-- Touch Spin -->
+	<link rel="stylesheet" href="assets/plugin/touchspin/jquery.bootstrap-touchspin.min.css">
+
+	<!-- Colorpicker -->
+	<link rel="stylesheet" href="assets/plugin/colorpicker/css/bootstrap-colorpicker.min.css">
+
+	<!-- Datepicker -->
+	<link rel="stylesheet" href="assets/plugin/datepicker/css/bootstrap-datepicker.min.css">
+
+	<!-- DateRangepicker -->
+	<link rel="stylesheet" href="assets/plugin/daterangepicker/daterangepicker.css">
+
+
+	<!-- Data Tables -->
+	<link rel="stylesheet" href="assets/plugin/datatables/media/css/dataTables.bootstrap.min.css">
+	<link rel="stylesheet" href="assets/plugin/datatables/extensions/Responsive/css/responsive.bootstrap.min.css">
+
+	
+</head>
+
+<body>
+<div class="main-menu">
+	<header class="header">
+		<a href="index.html" class="logo"><img src="./assets/images/jepc_logo.png"></a>
+		
+		<div class="user">
+			<a href="#" class="avatar"><img src="http://placehold.it/80x80" alt=""><span class="status online"></span></a>
+			<h5 class="name"><a href="profile.html">Emily Stanley</a></h5>
+			<h5 class="position">Administrator</h5>
+			<!-- /.name -->
+			<div class="control-wrap js__drop_down">
+				<i class="fa fa-caret-down js__drop_down_button"></i>
+				<div class="control-list">
+					<div class="control-item"><a href="profile.html"><i class="fa fa-user"></i> Profile</a></div>
+					<div class="control-item"><a href="#"><i class="fa fa-gear"></i> Settings</a></div>
+					<div class="control-item"><a href="#"><i class="fa fa-sign-out"></i> Log out</a></div>
+				</div>
+				<!-- /.control-list -->
+			</div>
+			<!-- /.control-wrap -->
+		</div>
+		<!-- /.user -->
+	</header>
+	<!-- /.header -->
+	<div class="content">
+
+		<div class="navigation">
+			<h5 class="title">Navigation</h5>
+			<!-- /.title -->
+			<ul class="menu js__accordion">
+				<li class="current">
+					<a class="waves-effect" href="index.html"><i class="menu-icon fa fa-home"></i><span>Dashboard</span></a>
+				</li>
+				<li>
+					<a class="waves-effect" href="#"><i class="menu-icon fa fa-graduation-cap"></i><span>Schools</span></a>
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-folder-open"></i><span>Assets</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="#">Add Assets</a></li>
+						<li><a href="#">Asset List</a></li>
+						<li><a href="#">Asset Theft</a></li>
+						<li><a href="#">Asset Replacement</a></li>
+						
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<li>
+					<a class="waves-effect" href="#"><i class="menu-icon fa fa-folder"></i><span>Assets Power Logs</span></a>
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-balance-scale"></i><span>Complaint Log</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="#">Add Complaint</a></li>
+						<li><a href="#">Complaint List</a></li>
+						
+						
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-group"></i><span>Students Details</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="#">Add Students</a></li>
+						<li><a href="#">Bulk Upload</a></li>
+						<li><a href="#">Students List</a></li>
+						
+						
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-user"></i><span>Teachers Details</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="#">Add Teachers</a></li>
+						<li><a href="#">Bulk Upload</a></li>
+						<li><a href="#">Teachers List</a></li>
+						
+						
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-calendar-check-o"></i><span>Attendance</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="#">ICT Attendance</a></li>
+						<li><a href="#">Substitute ICT Attendance</a></li>
+						<li><a href="#">CC Attendance</a></li>
+						
+						
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-flask"></i><span>Lab Usages</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="#">Theory/ Practical/ Multimedia</a></li>
+						<li><a href="#">MIS/ Office work</a></li>
+						
+						
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<h5 class="title">Reports</h5>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-gear"></i><span>ICT Instructor</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="#">School Wise Attendance</a></li>
+						<li><a href="#">District Wise Attendance</a></li>
+						<li><a href="#">Month Wise Attendance</a></li>
+						
+						
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-gears"></i><span>District Coordinator</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="#">School Wise Attendance</a></li>
+						<li><a href="#">Visit Details</a></li>
+						
+						
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<li>
+					<a class="waves-effect" href="#"><i class="menu-icon fa fa-times-circle"></i><span>Thefts</span></a>
+				</li>
+				<li>
+					<a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-filter"></i><span>Lab Usage</span><span class="menu-arrow fa fa-angle-down"></span></a>
+					<ul class="sub-menu js__content">
+						<li><a href="#">District Wise</a></li>
+						<li><a href="#">School Wise</a></li>
+						<li><a href="#">Class Wise</a></li>
+						<li><a href="#">Lecture Category Wise</a></li>
+						
+						
+					</ul>
+					<!-- /.sub-menu js__content -->
+				</li>
+				<h5 class="title"><a href="#">Configuration</a></h5>
+				
+			<!-- /.menu js__accordion -->
+		</div>
+		<!-- /.navigation -->
+	</div>
+	<!-- /.content -->
+</div>
+<!-- /.main-menu -->
+
+<div class="fixed-navbar">
+	<div class="pull-left">
+		<button type="button" class="menu-mobile-button glyphicon glyphicon-menu-hamburger js__menu_mobile"></button>
+		<h1 class="page-title">Home</h1>
+		<!-- /.page-title -->
+	</div>
+	<!-- /.pull-left -->
+	<div class="pull-right">
+		<div class="ico-item">
+			<a href="#" class="ico-item fa fa-search js__toggle_open" data-target="#searchform-header"></a>
+			<form action="#" id="searchform-header" class="searchform js__toggle"><input type="search" placeholder="Search..." class="input-search"><button class="fa fa-search button-search" type="submit"></button></form>
+			<!-- /.searchform -->
+		</div>
+		<!-- /.ico-item -->
+		<div class="ico-item fa fa-arrows-alt js__full_screen"></div>
+		<!-- /.ico-item fa fa-fa-arrows-alt -->
+		<div class="ico-item toggle-hover js__drop_down ">
+			<span class="fa fa-th js__drop_down_button"></span>
+			<div class="toggle-content">
+				<ul>
+					<li><a href="#"><i class="fa fa-github"></i><span class="txt">Github</span></a></li>
+					<li><a href="#"><i class="fa fa-bitbucket"></i><span class="txt">Bitbucket</span></a></li>
+					<li><a href="#"><i class="fa fa-slack"></i><span class="txt">Slack</span></a></li>
+					<li><a href="#"><i class="fa fa-dribbble"></i><span class="txt">Dribbble</span></a></li>
+					<li><a href="#"><i class="fa fa-amazon"></i><span class="txt">Amazon</span></a></li>
+					<li><a href="#"><i class="fa fa-dropbox"></i><span class="txt">Dropbox</span></a></li>
+				</ul>
+				<a href="#" class="read-more">More</a>
+			</div>
+			<!-- /.toggle-content -->
+		</div>
+		<!-- /.ico-item -->
+		<a href="#" class="ico-item fa fa-envelope notice-alarm js__toggle_open" data-target="#message-popup"></a>
+		<a href="#" class="ico-item pulse"><span class="ico-item fa fa-bell notice-alarm js__toggle_open" data-target="#notification-popup"></span></a>
+		<a href="#" class="ico-item fa fa-power-off js__logout"></a>
+	</div>
+	<!-- /.pull-right -->
+</div>
+<!-- /.fixed-navbar -->
+
+<div id="notification-popup" class="notice-popup js__toggle" data-space="75">
+	<h2 class="popup-title">Your Notifications</h2>
+	<!-- /.popup-title -->
+	<div class="content">
+		<ul class="notice-list">
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">John Doe</span>
+					<span class="desc">Like your post: “Contact Form 7 Multi-Step”</span>
+					<span class="time">10 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Anna William</span>
+					<span class="desc">Like your post: “Facebook Messenger”</span>
+					<span class="time">15 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar bg-warning"><i class="fa fa-warning"></i></span>
+					<span class="name">Update Status</span>
+					<span class="desc">Failed to get available update data. To ensure the please contact us.</span>
+					<span class="time">30 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
+					<span class="name">Jennifer</span>
+					<span class="desc">Like your post: “Contact Form 7 Multi-Step”</span>
+					<span class="time">45 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Michael Zenaty</span>
+					<span class="desc">Like your post: “Contact Form 7 Multi-Step”</span>
+					<span class="time">50 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Simon</span>
+					<span class="desc">Like your post: “Facebook Messenger”</span>
+					<span class="time">1 hour</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar bg-violet"><i class="fa fa-flag"></i></span>
+					<span class="name">Account Contact Change</span>
+					<span class="desc">A contact detail associated with your account has been changed.</span>
+					<span class="time">2 hours</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Helen 987</span>
+					<span class="desc">Like your post: “Facebook Messenger”</span>
+					<span class="time">Yesterday</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
+					<span class="name">Denise Jenny</span>
+					<span class="desc">Like your post: “Contact Form 7 Multi-Step”</span>
+					<span class="time">Oct, 28</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Thomas William</span>
+					<span class="desc">Like your post: “Facebook Messenger”</span>
+					<span class="time">Oct, 27</span>
+				</a>
+			</li>
+		</ul>
+		<!-- /.notice-list -->
+		<a href="#" class="notice-read-more">See more messages <i class="fa fa-angle-down"></i></a>
+	</div>
+	<!-- /.content -->
+</div>
+<!-- /#notification-popup -->
+
+<div id="message-popup" class="notice-popup js__toggle" data-space="75">
+	<h2 class="popup-title">Recent Messages<a href="#" class="pull-right text-danger">New message</a></h2>
+	<!-- /.popup-title -->
+	<div class="content">
+		<ul class="notice-list">
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">John Doe</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">10 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Harry Halen</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">15 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Thomas Taylor</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">30 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
+					<span class="name">Jennifer</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">45 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
+					<span class="name">Helen Candy</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">45 min</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
+					<span class="name">Anna Cavan</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">1 hour ago</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar bg-success"><i class="fa fa-user"></i></span>
+					<span class="name">Jenny Betty</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">1 day ago</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
+					<span class="name">Denise Peterson</span>
+					<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
+					<span class="time">1 year ago</span>
+				</a>
+			</li>
+		</ul>
+		<!-- /.notice-list -->
+		<a href="#" class="notice-read-more">See more messages <i class="fa fa-angle-down"></i></a>
+	</div>
+	<!-- /.content -->
+</div>
+<!-- /#message-popup -->
+
+<!-- #color-switcher -->
+
+<div id="wrapper">
+	<div class="main-content">
+		<div class="row small-spacing">
+			
+			<!-- /.col-xs-12 -->
+			<div class="col-lg-3 col-md-6 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Schools</h4>
+					<!-- /.box-title -->
+					<div class="dropdown js__drop_down">
+						<a href="#" class="dropdown-icon glyphicon glyphicon-option-vertical js__drop_down_button"></a>
+						<ul class="sub-menu">
+							<li><a href="#">More info</a></li>
+						</ul>
+						<!-- /.sub-menu -->
+					</div>
+					<!-- /.dropdown js__dropdown -->
+					<div class="content widget-stat">
+						<div class="percent bg-warning"><i class="fa fa-line-chart"></i>83%</div>
+						<!-- /.percent -->
+						<div class="right-content">
+							<h2 class="counter">252</h2>
+							<!-- /.counter -->
+							<p class="text">Schools</p>
+							<!-- /.text -->
+						</div>
+						<!-- /.right-content -->
+						<div class="clear"></div>
+						<!-- /.clear -->
+						<div class="process-bar">
+							<div class="bar-bg bg-warning"></div>
+							<div class="bar js__width bg-warning" data-width="70%"></div>
+							<!-- /.bar js__width bg-success -->
+						</div>
+						<!-- /.process-bar -->
+					</div>
+					<!-- /.content widget-stat -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-3 col-md-6 col-xs-12 -->
+			<div class="col-lg-3 col-md-6 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Number of Students</h4>
+					<!-- /.box-title -->
+					<div class="dropdown js__drop_down">
+						<a href="#" class="dropdown-icon glyphicon glyphicon-option-vertical js__drop_down_button"></a>
+						<ul class="sub-menu">
+							<li><a href="#">More info</a></li>
+						</ul>
+						<!-- /.sub-menu -->
+					</div>
+					<!-- /.dropdown js__dropdown -->
+					<div class="content widget-stat-chart">
+						<div class="c100 p76 small blue js__circle">
+							<span>93%</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+						<!-- /.c100 p58 -->
+						<div class="right-content">
+							<h2 class="counter">72426</h2>
+							<!-- /.counter -->
+							<p class="text">Total</p>
+							<!-- /.text -->
+						</div>
+						<!-- /.right-content -->
+					</div>
+					<!-- /.content -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-3 col-md-6 col-xs-12 -->
+			<div class="col-lg-3 col-md-6 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Number of Assets</h4>
+					<!-- /.box-title -->
+					<div class="dropdown js__drop_down">
+						<a href="#" class="dropdown-icon glyphicon glyphicon-option-vertical js__drop_down_button"></a>
+						<ul class="sub-menu">
+							<li><a href="#">More info</a></li>
+						</ul>
+						<!-- /.sub-menu -->
+					</div>
+					<!-- /.dropdown js__dropdown -->
+					<div class="content widget-stat">
+						<div class="percent bg-danger"><i class="fa fa-line-chart"></i>+79%</div>
+						<!-- /.percent -->
+						<div class="right-content">
+							<h2 class="counter">7989</h2>
+							<!-- /.counter -->
+							<p class="text">Total</p>
+							<!-- /.text -->
+						</div>
+						<!-- /.right-content -->
+						<div class="clear"></div>
+						<!-- /.clear -->
+						<div class="process-bar">
+							<div class="bar-bg bg-danger"></div>
+							<div class="bar js__width bg-danger" data-width="70%"></div>
+							<!-- /.bar js__width bg-success -->
+						</div>
+						<!-- /.process-bar -->
+					</div>
+					<!-- /.content widget-stat -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-3 col-md-6 col-xs-12 -->
+			<div class="col-lg-3 col-md-6 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Number of Complaints</h4>
+					<!-- /.box-title -->
+					<div class="dropdown js__drop_down">
+						<a href="#" class="dropdown-icon glyphicon glyphicon-option-vertical js__drop_down_button"></a>
+						<ul class="sub-menu">
+							<li><a href="#">More info</a></li>
+						</ul>
+						<!-- /.sub-menu -->
+					</div>
+					<!-- /.dropdown js__dropdown -->
+					<div class="content widget-stat-chart">
+						<div class="c100 p94 small green js__circle">
+							<span>14%</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+						<!-- /.c100 p58 -->
+						<div class="right-content">
+							<h2 class="counter">254</h2>
+							<!-- /.counter -->
+							<p class="text">Total</p>
+							<!-- /.text -->
+						</div>
+						<!-- /.right-content -->
+					</div>
+					<!-- /.content -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-3 col-md-6 col-xs-12 -->
+
+
+
+			<div class="col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Attendance Trend of ICT Instructors</h4>
+					<!-- /.box-title -->
+					
+					<form class="form-horizontal">
+						<div class="form-group">
+							
+							<div class="col-lg-8">
+								<input class="form-control input-daterange-datepicker" type="text" name="daterange" value="01/01/2015 - 01/01/2023">
+							</div>
+						</div>
+						</div>
+					</form>
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Title here</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:60%;">Item Name</th>
+									<th align="right"></th>
+									<th align="right">Result</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Average Working Days</td>
+									<td align="right"></td>
+									<td align="right">26</td>
+								</tr>
+								<tr>
+									<td>Total Public Holidays</td>
+									<td align="right"></td>
+									<td align="right">0</td>
+								</tr>
+								<tr>
+									<td>Average Present</td>
+									<td align="right"></td>
+									<td align="right">11</td>
+								</tr>
+								<tr>
+									<td>Todays Last Sync Attendance</td>
+									<td align="right">2022-12-26</td>
+									<td align="right">00:00:00</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+             <!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Title here</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:60%;">Item Name</th>
+									<th align="right">Result</th>
+									<th align="right">View</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Total Schools</td>
+									<td align="right">252</td>
+									<td align="right">view</td>
+								</tr>
+								<tr>
+									<td>Total Schools where ICT Instructor Deployed</td>
+									<td align="right">215</td>
+									<td align="right">view</td>
+								</tr>
+								<tr>
+									<td>Total Instructors Present</td>
+									<td align="right">0</td>
+									<td align="right">view</td>
+								</tr>
+								<tr>
+									<td>Total Instructors Present (Yesterday)</td>
+									<td align="right">0</td>
+									<td align="right">view</td>
+								</tr>
+								<tr>
+									<td>Total Instructors Absent (Today)</td>
+									<td align="right">0</td>
+									<td align="right">view</td>
+								</tr>
+								<tr>
+									<td>Total Instructors OnLeave (Today)</td>
+									<td align="right">0</td>
+									<td align="right">view</td>
+								</tr>
+								<tr>
+									<td>Total Instructors Absent (Yesterday)</td>
+									<td align="right">0</td>
+									<td align="right">view</td>
+								</tr>
+								<tr>
+									<td>Total Instructors OnLeave (Yesterday)</td>
+									<td align="right">0</td>
+									<td align="right">view</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+            <div class="col-lg-6 col-xs-12">
+				
+				<div class="box-content">
+					<h4 class="box-title">Employee Type Graphical Data</h4>
+					<!-- /.box-title -->
+					<div class="dropdown js__drop_down">
+						<a href="#" class="dropdown-icon glyphicon glyphicon-option-vertical js__drop_down_button"></a>
+						<ul class="sub-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else there</a></li>
+							<li class="split"></li>
+							<li><a href="#">Separated link</a></li>
+						</ul>
+						<!-- /.sub-menu -->
+					</div>
+					<!-- /.dropdown js__dropdown -->
+					<div class="content">
+						<div id="chart-1" class="js__chart" data-type="donut" data-chart="'Type'/'Number' |'MIS Work'/8.9 |'Multimedia'/16.5 | 'Office Work'/28.8 | 'Practical'/24.8 | 'Theory'/21"></div>
+					</div>
+					<!-- /.content -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+			<!-- /.col-lg-6 col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Total Number of Assets</h4>
+					<!-- /.dropdown js__dropdown -->
+					<div id="3dpie-highcharts"></div>
+				</div>
+				<!-- /.box-content -->
+			</div>
+			
+
+			
+
+			
+			<div class="col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Attendance Trend of ICT Instructors</h4>
+					<!-- /.box-title -->
+					
+					<form class="form-horizontal">
+						<div class="form-group">
+							
+							<div class="col-lg-8">
+								<input class="form-control input-daterange-datepicker" type="text" name="daterange" value="01/01/2015 - 01/01/2023">
+							</div>
+						</div>
+						</div>
+
+
+						
+					</form>
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+			<div class="col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">District Wise Lab Usage</h4>
+					<!-- /.box-title -->
+					<div class="dropdown js__drop_down">
+						<a href="#" class="dropdown-icon glyphicon glyphicon-option-vertical js__drop_down_button"></a>
+						<ul class="sub-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else there</a></li>
+							<li class="split"></li>
+							<li><a href="#">Separated link</a></li>
+						</ul>
+						<!-- /.sub-menu -->
+					</div>
+					<!-- /.dropdown js__dropdown -->
+					
+					<div id="bar-morris-chart" class="morris-chart" style="height: 400px"></div>
+					<div class="text-center">
+						<ul class="list-inline morris-chart-detail-list">
+							<li><i class="fa fa-circle"></i>Theory</li>
+							<li><i class="fa fa-circle"></i>Practical</li>
+							<li><i class="fa fa-circle"></i>Multimedia</li>
+						</ul>
+					</div>
+					<!-- /.content -->
+					<h4 class="box-title" style="text-align:center">Number of Sessions over District</h4>
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-4 col-md-12 -->
+
+
+
+
+
+			<div class="col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Attendance (District Wise)</h4>
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="row">
+						<div class="col-lg-8">
+							<form class="form-horizontal">
+							    <div class="form-group">
+									<div class="col-sm-8">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="mm/dd/yyyy" id="datepicker">
+											<span class="input-group-addon bg-primary text-white"><i class="fa fa-calendar"></i></span>
+										</div>
+										<!-- /.input-group -->
+									</div>
+								</div>
+							</form>
+						</div>
+						<!-- /.col-lg-8 -->
+					</div>
+					<!-- /.row -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-xs-12 -->
+
+
+
+			
+			<div class="col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">District Wise Lab Usage</h4>
+					<!-- /.box-title -->
+					<div class="dropdown js__drop_down">
+						<a href="#" class="dropdown-icon glyphicon glyphicon-option-vertical js__drop_down_button"></a>
+						<ul class="sub-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else there</a></li>
+							<li class="split"></li>
+							<li><a href="#">Separated link</a></li>
+						</ul>
+						<!-- /.sub-menu -->
+					</div>
+					<!-- /.dropdown js__dropdown -->
+					
+					<div id="bar-morris-chart" class="morris-chart" style="height: 400px"></div>
+					<div class="text-center">
+						<ul class="list-inline morris-chart-detail-list">
+							<li><i class="fa fa-circle"></i>Theory</li>
+							<li><i class="fa fa-circle"></i>Practical</li>
+							<li><i class="fa fa-circle"></i>Multimedia</li>
+						</ul>
+					</div>
+					<!-- /.content -->
+					<h4 class="box-title" style="text-align:center">Number of Sessions over District</h4>
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-4 col-md-12 -->
+
+
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Title here</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:50%;">Call Log Date</th>
+									<th align="left">Call Status</th>
+									
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>09-11-2022</td>
+									<td align="left">Resolved</td>
+									
+								</tr>
+								<tr>
+									<td>02-11-2022</td>
+									<td align="left">Resolved</td>
+									
+								</tr>
+								<tr>
+									<td>01-11-2022</td>
+									<td align="left">Open</td>
+									
+								</tr>
+								<tr>
+									<td>01-11-2022</td>
+									<td align="left">Open</td>
+									
+								</tr>
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Title here</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:80%;">Call Logs</th>
+									<th align="left">Result</th>
+									
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Total Calls Log</td>
+									<td align="left">4</td>
+									
+								</tr>
+								<tr>
+									<td>Total Calls Open</td>
+									<td align="left">4</td>
+									
+								</tr>
+								<tr>
+									<td>Total Calls Closed</td>
+									<td align="left">0</td>
+									
+								</tr>
+								<tr>
+									<td>Total Calls Resolved(By Vendor)</td>
+									<td align="left">2</td>
+									
+								</tr>
+								<tr>
+									<td>Total Calls Closed Beyond SLA</td>
+									<td align="left">0</td>
+									
+								</tr>
+								<tr>
+									<td>Total Calls Closed Within SLA</td>
+									<td align="left">0</td>
+									
+								</tr>
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+
+			<div class="col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Attendance Trend of ICT Instructors</h4>
+					<!-- /.box-title -->
+					
+					<form class="form-horizontal">
+						<div class="form-group">
+							
+							<div class="col-lg-8">
+								<input class="form-control input-daterange-datepicker" type="text" name="daterange" value="01/01/2015 - 01/01/2023">
+							</div>
+						</div>
+						</div>
+
+
+						
+					</form>
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+				<!-- /.col-xs-12 -->
+				<div class="col-lg-6 col-xs-12">
+					<h4 class="name">Call Log Status(Since Inception)</h4>
+					<div class="box-content">
+						
+						
+						<!-- /.dropdown js__dropdown -->
+						<div class="table-responsive table-purchases">
+							<table class="table table-striped margin-bottom-10">
+								<thead>
+									<tr>
+										<th style="width:80%;">Call Logs</th>
+										<th align="left">Result</th>
+										
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Total Calls Log</td>
+										<td align="left">289</td>
+										
+									</tr>
+									<tr>
+										<td>Total Calls Open</td>
+										<td align="left">17</td>
+										
+									</tr>
+									<tr>
+										<td>Total Calls Closed</td>
+										<td align="left">271</td>
+										
+									</tr>
+									<tr>
+										<td>Total Calls Resolved(By Vendor)</td>
+										<td align="left">6</td>
+										
+									</tr>
+									<tr>
+										<td>Total Calls Closed Beyond SLA</td>
+										<td align="left">57</td>
+										
+									</tr>
+									<tr>
+										<td>Total Calls Closed Within SLA</td>
+										<td align="left">214</td>
+										
+									</tr>
+								</tbody>
+							</table>
+							<!-- /.table -->
+						</div>
+						<!-- /.table-responsive -->
+					</div>
+					<!-- /.box-content -->
+				</div>
+
+
+
+
+
+
+				<div class="col-lg-6 col-xs-12">
+					<div class="box-content">
+						<h4 class="box-title">Attendance Trend of ICT Instructors</h4>
+						<!-- /.box-title -->
+						
+						<form class="form-horizontal">
+							<div class="form-group">
+								
+								<div class="col-lg-8">
+									<input class="form-control input-daterange-datepicker" type="text" name="daterange" value="01/01/2015 - 01/01/2023">
+								</div>
+							</div>
+							</div>
+	
+	
+							
+						</form>
+					</div>
+					<!-- /.box-content -->
+				</div>
+
+				<!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Title here</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:35%;">Lecture Category</th>
+									<th align="left">Hours Used</th>
+									<th align="left">No. of Periods</th>
+									<th style="width:30%;">Average Students Present</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td></td>
+									<td align="left">1:0 Hrs</td>
+									<td align="left">1</td>
+									<td align="left">46 Students</td>
+								</tr>
+								<tr>
+									<td>MIS Work</td>
+									<td align="left">563:15 Hrs</td>
+									<td align="left">213</td>
+									<td align="left">0</td>
+								</tr>
+								<tr>
+									<td>Multimedia</td>
+									<td align="left">1406:7 Hrs</td>
+									<td align="left">1164</td>
+									<td align="left">41 Students</td>
+								</tr>
+								<tr>
+									<td>Office Work</td>
+									<td align="left">787:51 Hrs</td>
+									<td align="left">357</td>
+									<td align="left">0</td>
+								</tr>
+								<tr>
+									<td>Practical</td>
+									<td align="left">1862:18 Hrs</td>
+									<td align="left">1452</td>
+									<td align="left">25 Students</td>
+								</tr>
+								<tr>
+									<td>Theory</td>
+									<td align="left">1739:31 Hrs</td>
+									<td align="left">1265</td>
+									<td align="left">42 Students</td>
+								</tr>
+								<tr>
+									<th style="left:35%;">Total</th>
+									<th align="left">6358</th>
+									<th align="left">4452</th>
+									<th style="width:30%;">154</th>
+								</tr>
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+
+			<div class="col-lg-6 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Attendance Trend of ICT Instructors</h4>
+					<!-- /.box-title -->
+					
+					<form class="form-horizontal">
+						<div class="form-group">
+							
+							<div class="col-lg-8">
+								<input class="form-control input-daterange-datepicker" type="text" name="daterange" value="01/01/2015 - 01/01/2023">
+							</div>
+						</div>
+						</div>
+
+
+						
+					</form>
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+			
+
+
+			<div class="col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Default</h4>
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<table id="example" class="table table-striped table-bordered display" style="width:100%">
+						<thead>
+							<tr>
+								<th>Class</th>
+								<th>Subject</th>
+								<th>Total Hours Utilized</th>
+								<th>Average Students Present</th>
+								
+							</tr>
+						</thead>
+						
+						<tbody>
+							<tr>
+								<td>(not set)</td>
+								<td align="left"></td>
+								<td align="left">1:30 Hrs</td>
+								<td align="left">22 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left"></td>
+								<td align="left">0:45 Hrs</td>
+								<td align="left">45 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">	English</td>
+								<td align="left">8:55 Hrs</td>
+								<td align="left">41 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Hindi</td>
+								<td align="left">35:7 Hrs</td>
+								<td align="left">27 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Mathematics</td>
+								<td align="left">8:25 Hrs</td>
+								<td align="left">53 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Sanskrit</td>
+								<td align="left">0:40 Hrs</td>
+								<td align="left">31 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Science</td>
+								<td align="left">	13:52 Hrs</td>
+								<td align="left">43 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Science</td>
+								<td align="left">	13:52 Hrs</td>
+								<td align="left">43 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Science</td>
+								<td align="left">	13:52 Hrs</td>
+								<td align="left">43 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Science</td>
+								<td align="left">	13:52 Hrs</td>
+								<td align="left">43 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Science</td>
+								<td align="left">	13:52 Hrs</td>
+								<td align="left">43 Students</td>
+							</tr>
+							<tr>
+								<td>Tiger Nixon</td>
+								<td>System Architect</td>
+								<td>Edinburgh</td>
+								<td>61</td>
+								
+							</tr>
+							<tr>
+								<td>Garrett Winters</td>
+								<td>Accountant</td>
+								<td>Tokyo</td>
+								<td>63</td>
+							<tr>
+								<td>Ashton Cox</td>
+								<td>Junior Technical Author</td>
+								<td>San Francisco</td>
+								<td>66</td>
+							</tr>
+							<tr>
+								<td>Cedric Kelly</td>
+								<td>Senior Javascript Developer</td>
+								<td>Edinburgh</td>
+								<td>22</td>
+							</tr>
+							<tr>
+								<td>Airi Satou</td>
+								<td>Accountant</td>
+								<td>Tokyo</td>
+								<td>33</td>
+							</tr>
+							<tr>
+								<td>Brielle Williamson</td>
+								<td>Integration Specialist</td>
+								<td>New York</td>
+								<td>61</td>
+							</tr>
+							
+							<tr>
+								<td>Rhona Davidson</td>
+								<td>Integration Specialist</td>
+								<td>Tokyo</td>
+								<td>55</td>
+							</tr>
+							<tr>
+								<td>Colleen Hurst</td>
+								<td>Javascript Developer</td>
+								<td>San Francisco</td>
+								<td>39</td>
+							</tr>
+							<tr>
+								<td>Sonya Frost</td>
+								<td>Software Engineer</td>
+								<td>Edinburgh</td>
+								<td>23</td>
+							</tr>
+							<tr>
+								<td>Jena Gaines</td>
+								<td>Office Manager</td>
+								<td>London</td>
+								<td>30</td>
+							</tr>
+							<tr>
+								<td>Quinn Flynn</td>
+								<td>Support Lead</td>
+								<td>Edinburgh</td>
+								<td>22</td>
+							</tr>
+							
+							<tr>
+								<td>Donna Snider</td>
+								<td>Customer Support</td>
+								<td>New York</td>
+								<td>27</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+				<div class="col-lg-6 col-xs-12">
+					<h4 class="name">Total Number of Assets</h4>
+					<div class="box-content">
+						<h4 class="box-title">Lab Usages Graphical Data</h4>
+						<!-- /.box-title -->
+						<div class="dropdown js__drop_down">
+							<a href="#" class="dropdown-icon glyphicon glyphicon-option-vertical js__drop_down_button"></a>
+							<ul class="sub-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else there</a></li>
+								<li class="split"></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+							<!-- /.sub-menu -->
+						</div>
+						<!-- /.dropdown js__dropdown -->
+						<div class="content">
+							<div id="chart-1" class="js__chart" data-type="donut" data-chart="'Type'/'Number' |'MIS Work'/8.9 |'Multimedia'/16.5 | 'Office Work'/28.8 | 'Practical'/24.8 | 'Theory'/21"></div>
+						</div>
+						<!-- /.content -->
+					</div>
+					<!-- /.box-content -->
+				</div>
+
+
+
+
+					<!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Lab Usages- Overall (Since Inception)</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:35%;">Lecture Category</th>
+									<th align="left">Hours Used</th>
+									<th align="left">No. of Periods</th>
+									<th style="width:30%;">Average Students Present</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td></td>
+									<td align="left">9:45Hrs</td>
+									<td align="left">10</td>
+									<td align="left">31 Students</td>
+								</tr>
+								<tr>
+									<td>MIS Work</td>
+									<td align="left">36530:25Hrs</td>
+									<td align="left">5148</td>
+									<td align="left">0</td>
+								</tr>
+								<tr>
+									<td>Multimedia</td>
+									<td align="left">43240:20Hrs</td>
+									<td align="left">28405</td>
+									<td align="left">41 Students</td>
+								</tr>
+								<tr>
+									<td>Office Work</td>
+									<td align="left">39287:0Hrs</td>
+									<td align="left">11786</td>
+									<td align="left">0 Students</td>
+								</tr>
+								<tr>
+									<td>Practical</td>
+									<td align="left">60476:15Hrs</td>
+									<td align="left">37215</td>
+									<td align="left">25 Students</td>
+								</tr>
+								<tr>
+									<td>Theory</td>
+									<td align="left">52166:25Hrs</td>
+									<td align="left">33250</td>
+									<td align="left">39 Students</td>
+								</tr>
+								
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+			<div class="col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Default</h4>
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<table id="example" class="table table-striped table-bordered display" style="width:100%">
+						<thead>
+							<tr>
+								<th>Class</th>
+								<th>Subject</th>
+								<th>Total Hours Utilized</th>
+								<th>Average Students Present</th>
+								
+							</tr>
+						</thead>
+						
+						<tbody>
+							<tr>
+								<td>(not set)</td>
+								<td align="left"></td>
+								<td align="left">1:30 Hrs</td>
+								<td align="left">22 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left"></td>
+								<td align="left">0:45 Hrs</td>
+								<td align="left">45 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">	English</td>
+								<td align="left">8:55 Hrs</td>
+								<td align="left">41 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Hindi</td>
+								<td align="left">35:7 Hrs</td>
+								<td align="left">27 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Mathematics</td>
+								<td align="left">8:25 Hrs</td>
+								<td align="left">53 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Sanskrit</td>
+								<td align="left">0:40 Hrs</td>
+								<td align="left">31 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Science</td>
+								<td align="left">	13:52 Hrs</td>
+								<td align="left">43 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Science</td>
+								<td align="left">	13:52 Hrs</td>
+								<td align="left">43 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Science</td>
+								<td align="left">	13:52 Hrs</td>
+								<td align="left">43 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Science</td>
+								<td align="left">	13:52 Hrs</td>
+								<td align="left">43 Students</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td align="left">Science</td>
+								<td align="left">	13:52 Hrs</td>
+								<td align="left">43 Students</td>
+							</tr>
+							<tr>
+								<td>Tiger Nixon</td>
+								<td>System Architect</td>
+								<td>Edinburgh</td>
+								<td>61</td>
+								
+							</tr>
+							<tr>
+								<td>Garrett Winters</td>
+								<td>Accountant</td>
+								<td>Tokyo</td>
+								<td>63</td>
+							<tr>
+								<td>Ashton Cox</td>
+								<td>Junior Technical Author</td>
+								<td>San Francisco</td>
+								<td>66</td>
+							</tr>
+							<tr>
+								<td>Cedric Kelly</td>
+								<td>Senior Javascript Developer</td>
+								<td>Edinburgh</td>
+								<td>22</td>
+							</tr>
+							<tr>
+								<td>Airi Satou</td>
+								<td>Accountant</td>
+								<td>Tokyo</td>
+								<td>33</td>
+							</tr>
+							<tr>
+								<td>Brielle Williamson</td>
+								<td>Integration Specialist</td>
+								<td>New York</td>
+								<td>61</td>
+							</tr>
+							
+							<tr>
+								<td>Rhona Davidson</td>
+								<td>Integration Specialist</td>
+								<td>Tokyo</td>
+								<td>55</td>
+							</tr>
+							<tr>
+								<td>Colleen Hurst</td>
+								<td>Javascript Developer</td>
+								<td>San Francisco</td>
+								<td>39</td>
+							</tr>
+							<tr>
+								<td>Sonya Frost</td>
+								<td>Software Engineer</td>
+								<td>Edinburgh</td>
+								<td>23</td>
+							</tr>
+							<tr>
+								<td>Jena Gaines</td>
+								<td>Office Manager</td>
+								<td>London</td>
+								<td>30</td>
+							</tr>
+							<tr>
+								<td>Quinn Flynn</td>
+								<td>Support Lead</td>
+								<td>Edinburgh</td>
+								<td>22</td>
+							</tr>
+							
+							<tr>
+								<td>Donna Snider</td>
+								<td>Customer Support</td>
+								<td>New York</td>
+								<td>27</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- /.box-content -->
+			</div>
+				
+
+			<!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Title here</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:25%;"></th>
+									<th align="right"></th>
+									<th align="right"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Genset</td>
+									<td align="right">Total Running Hours</td>
+									<td align="right">0 Hrs</td>
+								</tr>
+								<tr>
+									<td>Genset</td>
+									<td align="right">Total Fueling done (in Ltr)</td>
+									<td align="right">0 Ltr</td>
+								</tr>
+								<tr>
+									<td>Electricity</td>
+									<td align="right">Total Meter Reading</td>
+									<td align="right">0 Units</td>
+								</tr>
+								<tr>
+									<td>Electricity</td>
+									<td align="right">Total Applicable Amount</td>
+									<td align="right">₹0</td>
+								</tr>
+								<tr>
+									<td>Electricity</td>
+									<td align="right">Amount Paid to School</td>
+									<td align="right">₹0</td>
+								</tr>
+
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+			<!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Title here</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:70%;"></th>
+									<th align="right"></th>
+									<th align="right"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Total Hard Disk Delivered</td>
+									<td align="right">0 Units</td>
+								</tr>
+								<tr>
+									<td>Total A4 paper Delivered</td>
+									<td align="right">0 Sheets</td>
+								</tr>
+								<tr>
+									<td>Total Cartridge Delivered</td>
+									<td align="right">0 Units</td>
+								</tr>
+								
+
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+			<div class="col-lg-6 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Attendance Trend of ICT Instructors</h4>
+					<!-- /.box-title -->
+					
+					<form class="form-horizontal">
+						<div class="form-group">
+							
+							<div class="col-lg-8">
+								<input class="form-control input-daterange-datepicker" type="text" name="daterange" value="01/01/2015 - 01/01/2023">
+							</div>
+						</div>
+						</div>
+
+
+						
+					</form>
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Title here</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:25%;"></th>
+									<th align="right"></th>
+									<th align="right"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Genset</td>
+									<td align="right">Total Running Hours</td>
+									<td align="right">1024 Hrs</td>
+								</tr>
+								<tr>
+									<td>Genset</td>
+									<td align="right">Total Fueling done (in Ltr)</td>
+									<td align="right">283 Ltr</td>
+								</tr>
+								<tr>
+									<td>Electricity</td>
+									<td align="right">Total Meter Reading</td>
+									<td align="right">50309 Units</td>
+								</tr>
+								<tr>
+									<td>Electricity</td>
+									<td align="right">Total Applicable Amount</td>
+									<td align="right">₹249455</td>
+								</tr>
+								<tr>
+									<td>Electricity</td>
+									<td align="right">Amount Paid to School</td>
+									<td align="right">₹850353</td>
+								</tr>
+
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+			<!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Title here</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:70%;"></th>
+									<th align="right"></th>
+									<th align="right"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Total Hard Disk Delivered</td>
+									<td align="right">252 Units</td>
+								</tr>
+								<tr>
+									<td>Total A4 paper Delivered</td>
+									<td align="right">1081027 Sheets</td>
+								</tr>
+								<tr>
+									<td>Total Cartridge Delivered</td>
+									<td align="right">3463 Units</td>
+								</tr>
+								
+
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Title here</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+
+
+							<thead>
+								<tr>
+									<th>Total visits (CC)</th>
+									<th>Total visits (Other)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>82</td>
+									<td>0</td>
+								</tr>
+							</tbody>
+							<thead>
+								<tr>
+									<th style="width:33%;">Visitor Name</th>
+									<th style="width:33%;">Visitor Type</th>
+									<th style="width:33%;">Total No. Of Visits</th>
+								</tr>
+							</thead>
+								
+							<tbody>
+								<tr>
+									<td>Deepak Kumar Dangi</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">15</td>
+								</tr>
+								<tr>
+									<td>Devanand Pradhan</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">21</td>
+								</tr>
+								<tr>
+									<td>Md. Armoghan Hasib</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">17</td>
+								</tr>
+								<tr>
+									<td>Pankaj Kumar Singh</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">1</td>
+								</tr>
+								<tr>
+									<td>Ravikant Singh</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">9</td>
+								</tr>
+								<tr>
+									<td>Santosh Kumar Sarangi</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">19</td>
+								</tr>
+
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+			<div class="col-lg-6 col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Attendance Trend of ICT Instructors</h4>
+					<!-- /.box-title -->
+					
+					<form class="form-horizontal">
+						<div class="form-group">
+							
+							<div class="col-lg-8">
+								<input class="form-control input-daterange-datepicker" type="text" name="daterange" value="01/01/2015 - 01/01/2023">
+							</div>
+						</div>
+						</div>
+
+
+						
+					</form>
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Cluster Coordinator / Other Visit Detail (Since Inception)</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+
+
+							<thead>
+								<tr>
+									<th>Total visits (CC)</th>
+									<th>Total visits (Other)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>3463</td>
+									<td>0</td>
+								</tr>
+							</tbody>
+							<thead>
+								<tr>
+									<th style="width:33%;">Visitor Name</th>
+									<th style="width:33%;">Visitor Type</th>
+									<th style="width:33%;">Total No. Of Visits</th>
+								</tr>
+							</thead>
+								
+							<tbody>
+								<tr>
+									<td>Ashish Gupta</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>Deepak Kumar Dangi</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">427</td>
+								</tr>
+								<tr>
+									<td>Devanand Pradhan</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">434</td>
+								</tr>
+								<tr>
+									<td>Jaiprakash Patel</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">399</td>
+								</tr>
+								<tr>
+									<td>Md. Armoghan Hasib</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">497</td>
+								</tr>
+								<tr>
+									<td>Pankaj Kumar</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">277</td>
+								</tr>
+								<tr>
+									<td>Pankaj Kumar Singh</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">383</td>
+								</tr>
+								<tr>
+									<td>Ravikant Singh</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">50</td>
+								</tr>
+								<tr>
+									<td>Sandeep Kumar Srivastav</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">28</td>
+								</tr>
+								<tr>
+									<td>Santosh Kumar Sarangi</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">413</td>
+								</tr>
+								<tr>
+									<td>Vijay Ahir</td>
+									<td align="left">Cluster Co-ordinator</td>
+									<td align="left">230</td>
+								</tr>
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-lg-6 col-xs-12">
+				<h4 class="name">Title here</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:80%;"></th>
+									<th align="right"></th>
+									<th align="right"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Total Theft Cases</td>
+									<td align="right">15</td>
+								</tr>
+								<tr>
+									<td>Total A4 paper Delivered</td>
+									<td align="right">150</td>
+								</tr>
+								<tr>
+									<td>Total Items Recovered</td>
+									<td align="right">24</td>
+								</tr>
+								<tr>
+									<td>Total Items under StandBy</td>
+									<td align="right">3</td>
+								</tr>
+								<tr>
+									<td>Total Items New Installed (Replacement)</td>
+									<td align="right">68</td>
+								</tr>
+								
+
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-xs-12">
+				<h4 class="name">Cluster Coordinator / Other Visit Detail (Since Inception)</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+
+
+							<thead>
+								<tr>
+									<th>Issues Raised</th>
+									<th>Issues Raised Resolved</th>
+									<th>Issues Pending</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>25</td>
+									<td>0</td>
+									<td>25</td>
+								</tr>
+							</tbody>
+							<thead>
+								<tr>
+									<th style="width:33%;">Class</th>
+									<th style="width:33%;">Subject</th>
+									<th style="width:33%;">Total Issues Raised</th>
+									<th style="width:33%;">Total Issues Raised Resolved</th>
+									<th style="width:33%;">Total Issues Pending</th>
+								</tr>
+							</thead>
+								
+							<tbody>
+								<tr>
+									<td>6</td>
+									<td>Computer</td>
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>7</td>
+									<td>Hindi</td>
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>7</td>
+									<td>Science</td>
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>7</td>
+									<td>Geography</td>
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>8</td>
+									<td>Sanskrit</td>
+									<td>2</td>
+									<td>0</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>8</td>
+									<td>Geography</td>
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>8</td>
+									<td>History</td>
+									<td>2</td>
+									<td>0</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>10</td>
+									<td>Chemistry</td>
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>10</td>
+									<td>Mathematics</td>
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>10</td>
+									<td>Information and Communication Technology</td>
+									<td>2</td>
+									<td>0</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>10</td>
+									<td>Geography</td>
+									<td>2</td>
+									<td>0</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>10</td>
+									<td>Hindi</td>
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>10</td>
+									<td>History</td>
+									<td>2</td>
+									<td>0</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>11</td>
+									<td>Geography</td>
+									<td>3</td>
+									<td>0</td>
+									<td>3</td>
+								</tr>
+								<tr>
+									<td>11</td>
+									<td>Chemistry</td>
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>11</td>
+									<td>History</td>
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>12</td>
+									<td>Geography</td>
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>12</td>
+									<td>History	</td>
+									<td>1</td>
+									<td>0</td>
+									<td>1</td>
+								</tr>
+								
+								
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-xs-12">
+				<h4 class="name">Title here</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+
+							
+
+							<thead>
+								<tr>
+									<th>Detail of Latest Theft Case</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>School Details</td>
+									<td>Name: HIGH SCHOOL, GALUDIH<br>
+										School Code: BCCL-JH-ICT2-SAK-235<br>
+										UDISE Code: 20201100702<br>
+										District: SARAIKELA-KHARSAWAN<br>
+										Block: KUCHAI</td>
+								</tr>
+							</tbody>
+							<thead>
+								<tr>
+									<th style="width:20%;">Total List of Item Theft with Detail</th>
+									<th>
+										<thead>
+											<tr>
+												<th style="width:25%;">Component</th>
+												<th align="right">Model Name</th>
+												<th align="right">Serial Number</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Speaker</td>
+												<td align="left">ZEB-VA100</td>
+												<td align="left">001VA10006190243</td>
+											</tr>
+											<tr>
+												<td>Printer</td>
+												<td align="left">M2875 2675</td>
+												<td align="left">CNB1L9M65Y</td>
+											</tr>
+											<tr>
+												<td>TFT</td>
+												<td align="left">V206HQL</td>
+												<td align="left">MMLY6SS0129200DB248525</td>
+											</tr>
+											<tr>
+												<td>TFT</td>
+												<td align="left">V206HQL</td>
+												<td align="left">MMLY6SS0129200DB248525</td>
+											</tr>
+											<tr>
+												<td>TFT</td>
+												<td align="left">V206HQL</td>
+												<td align="left">MMLY6SS0129200DB248525</td>
+											</tr>
+											<tr>
+												<td>TFT</td>
+												<td align="left">V206HQL</td>
+												<td align="left">MMLY6SS0129200DB248525</td>
+											</tr>
+											<tr>
+												<td>TFT</td>
+												<td align="left">V206HQL</td>
+												<td align="left">MMLY6SS0129200DB248525</td>
+											</tr>
+											<tr>
+												<td>TFT</td>
+												<td align="left">V206HQL</td>
+												<td align="left">MMLY6SS0129200DB248525</td>
+											</tr>
+											<tr>
+												<td>TFT</td>
+												<td align="left">V206HQL</td>
+												<td align="left">MMLY6SS0129200DB248525</td>
+											</tr>
+											<tr>
+												<td>TFT</td>
+												<td align="left">V206HQL</td>
+												<td align="left">MMLY6SS0129200DB248525</td>
+											</tr>
+			
+											
+										</tbody>
+									</table></th>
+									
+								</tr>
+							</thead>
+								
+							<tbody>
+								<tr>
+									<td>FIR (Yes/No) if Yes Date of FIR</td>
+									<td align="left">Yes ,02-11-2022, FIR copy not available</td>
+								</tr>
+								<tr>
+									<td>List Item Recovered (If any)</td>
+									<td align="left">No</td>
+								</tr>
+								<tr>
+									<td>List Item on StandBy (if any)</td>
+									<td align="left">No</td>
+								</tr>
+
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-xs-12">
+				<h4 class="name">Cluster Coordinator / Other Visit Detail (Since Inception)</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+
+
+							<thead>
+								<tr>
+									<th>Issues Raised</th>
+									<th>Issues Raised Resolved</th>
+									<th>Issues Pending</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>25</td>
+									<td>0</td>
+									<td>25</td>
+								</tr>
+							</tbody>
+							<thead>
+								<tr>
+									<th>Class</th>
+									<th>Subject</th>
+									<th>Total Issues Raised</th>
+									<th>Total Issues Raised Resolved</th>
+									<th>Total Issues Pending</th>
+								</tr>
+							</thead>
+								
+							<tbody>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">427</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">434</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">399</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">497</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">277</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">383</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">50</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">28</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">413</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">230</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-xs-12">
+				<h4 class="name">Content Feedback (Since Inception)</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+
+
+							<thead>
+								<tr>
+									<th>Issues Raised</th>
+									<th>Issues Raised Resolved</th>
+									<th>Issues Pending</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>147</td>
+									<td>8</td>
+									<td>139</td>
+								</tr>
+							</tbody>
+							<thead>
+								<tr>
+									<th>Class</th>
+									<th>Subject</th>
+									<th>Total Issues Raised</th>
+									<th>Total Issues Raised Resolved</th>
+									<th>Total Issues Pending</th>
+								</tr>
+							</thead>
+								
+							<tbody>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">427</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">434</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">399</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">497</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">277</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">383</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">50</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">28</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">413</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td align="left">English</td>
+									<td align="left">230</td>
+									<td align="left">325</td>
+									<td align="left">325</td>
+								</tr>
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-xs-12">
+				<h4 class="name">Content Feedback (Since Inception)</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+
+
+							<thead>
+								<tr>
+									<th>Up</th>
+									<th>Down</th>
+									<th>Theft</th>
+									<th>Stand By</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>7899</td>
+									<td>31</td>
+									<td>173</td>
+									<td>94</td>
+								</tr>
+							</tbody>
+							<thead>
+								<tr>
+									<th>Item Name</th>
+									<th>Quantity Installed in LAB</th>
+									<th>Up</th>
+									<th>Down</th>
+									<th>Theft</th>
+									<th>Stand By</th>
+								</tr>
+							</thead>
+								
+							<tbody>
+								<tr>
+									<td>UPS</td>
+									<td align="left">252</td>
+									<td align="left">242</td>
+									<td align="left">9</td>
+									<td align="left">4</td>
+									<td align="left">3</td>
+								</tr>
+								<tr>
+									<td>Projector</td>
+									<td align="left">252</td>
+									<td align="left">242</td>
+									<td align="left">9</td>
+									<td align="left">4</td>
+									<td align="left">3</td>
+								</tr>
+								<tr>
+									<td>TFT</td>
+									<td align="left">252</td>
+									<td align="left">242</td>
+									<td align="left">9</td>
+									<td align="left">4</td>
+									<td align="left">3</td>
+								</tr>
+								<tr>
+									<td>Genset</td>
+									<td align="left">252</td>
+									<td align="left">242</td>
+									<td align="left">9</td>
+									<td align="left">4</td>
+									<td align="left">3</td>
+								</tr>
+								<tr>
+									<td>Switch</td>
+									<td align="left">252</td>
+									<td align="left">242</td>
+									<td align="left">9</td>
+									<td align="left">4</td>
+									<td align="left">3</td>
+								</tr>
+								<tr>
+									<td>CPU</td>
+									<td align="left">252</td>
+									<td align="left">242</td>
+									<td align="left">9</td>
+									<td align="left">4</td>
+									<td align="left">3</td>
+								</tr>
+								<tr>
+									<td>Thin Client</td>
+									<td align="left">252</td>
+									<td align="left">242</td>
+									<td align="left">9</td>
+									<td align="left">4</td>
+									<td align="left">3</td>
+								</tr>
+								<tr>
+									<td>Site Preparation</td>
+									<td align="left">252</td>
+									<td align="left">242</td>
+									<td align="left">9</td>
+									<td align="left">4</td>
+									<td align="left">3</td>
+								</tr>
+								<tr>
+									<td>Printer</td>
+									<td align="left">252</td>
+									<td align="left">242</td>
+									<td align="left">9</td>
+									<td align="left">4</td>
+									<td align="left">3</td>
+								</tr>
+								<tr>
+									<td>Multimedia Content</td>
+									<td align="left">252</td>
+									<td align="left">242</td>
+									<td align="left">9</td>
+									<td align="left">4</td>
+									<td align="left">3</td>
+								</tr>
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+			<!-- /.col-xs-12 -->
+			<div class="col-xs-12">
+				<h4 class="name">School Profile</h4>
+				<div class="box-content">
+					
+					
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:20%;">Class</th>
+									<th>6</th>
+									<th>7</th>
+									<th>8</th>
+									<th>9</th>
+									<th>10</th>
+									<th>11</th>
+									<th>12</th>
+									<th>Total</th>
+									
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Student Class Wise</td>
+									<td>6011</td>
+									<td>6638</td>
+									<td>7356</td>
+									<td>18934</td>
+									<td>15400</td>
+									<td>9756</td>
+									<td>10210</td>
+									<td>74305</td>
+									
+								</tr>
+								<tr>
+									<td>Total No of Teachers</td>
+									<td>3095</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Teacher Trained on ICT</td>
+									<td>2635
+									</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>No of Teachers not used E-Conent (This month)</td>
+									<td>131</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>No of Teachers not using E-Conent (till Date)</td>
+									<td>12</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+
+
+
+
+
+
+			
+			<!-- /.col-xs-12 -->
+			<div class="col-xs-12">
+				<div class="box-content">
+					<h4 class="box-title">Status Of Hardware Inventory</h4>
+					<!-- /.box-title -->
+					<div class="dropdown js__drop_down">
+						<a href="#" class="dropdown-icon glyphicon glyphicon-option-vertical js__drop_down_button"></a>
+						<ul class="sub-menu">
+							<li><a href="#">Product</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else there</a></li>
+							<li class="split"></li>
+							<li><a href="#">Separated link</a></li>
+						</ul>
+						<!-- /.sub-menu -->
+					</div>
+					<!-- /.dropdown js__dropdown -->
+					<div class="table-responsive table-purchases">
+						<table class="table table-striped margin-bottom-10">
+							<thead>
+								<tr>
+									<th style="width:20%;">Item Name</th>
+									<th align="right">Assets Installed</th>
+									<th align="right">Assets Running</th>
+									<th align="right">Assets Not Running</th>
+									<th align="right">Assets Stolen</th>
+									<th align="right">Assets on Standby</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>UPS</td>
+									<td align="right">252</td>
+									<td align="right">242</td>
+									<td align="right">9</td>
+									<td align="right">4</td>
+									<td align="right">3</td>
+								</tr>
+								<tr>
+									<td>Projector</td>
+									<td align="right">252</td>
+									<td align="right">249</td>
+									<td align="right">0</td>
+									<td align="right">4</td>
+									<td align="right">1</td>
+								</tr>
+								<tr>
+									<td>TFT</td>
+									<td align="right">2771</td>
+									<td align="right">2724</td>
+									<td align="right">1</td>
+									<td align="right">63</td>
+									<td align="right">17</td>
+								</tr>
+								<tr>
+									<td>Genset</td>
+									<td align="right">152</td>
+									<td align="right">151</td>
+									<td align="right">0</td>
+									<td align="right">1</td>
+									<td align="right">0</td>
+								</tr>
+								<tr>
+									<td>Switch</td>
+									<td align="right">252</td>
+									<td align="right">252</td>
+									<td align="right">0</td>
+									<td align="right">1</td>
+									<td align="right">1</td>
+								</tr>
+								<tr>
+									<td>CPU</td>
+									<td align="right">254</td>
+									<td align="right">248</td>
+									<td align="right">2</td>
+									<td align="right">4</td>
+									<td align="right">0</td>
+								</tr>
+								<tr>
+									<td>Thin Client</td>
+									<td align="right">2544</td>
+									<td align="right">2506</td>
+									<td align="right">3</td>
+									<td align="right">66</td>
+									<td align="right">31</td>
+								</tr>
+								<tr>
+									<td>Site Preparation</td>
+									<td align="right">252</td>
+									<td align="right">252</td>
+									<td align="right">0</td>
+									<td align="right">0</td>
+									<td align="right">0</td>
+								</tr>
+								<tr>
+									<td>Printer</td>
+									<td align="right">252</td>
+									<td align="right">250</td>
+									<td align="right">0</td>
+									<td align="right">3</td>
+									<td align="right">1</td>
+								</tr>
+								<tr>
+									<td>Multimedia Content</td>
+									<td align="right">252</td>
+									<td align="right">252</td>
+									<td align="right">0</td>
+									<td align="right">0</td>
+									<td align="right">0</td>
+								</tr>
+								<tr>
+									<td>Furniture</td>
+									<td align="right">252</td>
+									<td align="right">252</td>
+									<td align="right">0</td>
+									<td align="right">0</td>
+									<td align="right">0</td>
+								</tr>
+								<tr>
+									<td>Speaker</td>
+									<td align="right">252</td>
+									<td align="right">249</td>
+									<td align="right">1</td>
+									<td align="right">2</td>
+									<td align="right">0</td>
+								</tr>
+								<tr>
+									<td>Stabilizer</td>
+									<td align="right">252</td>
+									<td align="right">251</td>
+									<td align="right">0</td>
+									<td align="right">1</td>
+									<td align="right">0</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- /.table -->
+					</div>
+					<!-- /.table-responsive -->
+				</div>
+				<!-- /.box-content -->
+			</div>
+			<!-- /.col-lg-6 col-xs-12 -->
+		</div>
+
+
+
+
+		<!-- /.row -->		
+		<footer class="footer">
+			<ul class="list-inline">
+				<li>2022© JEPC</li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Help</a></li>
+			</ul>
+		</footer>
+	</div>
+	<!-- /.main-content -->
+</div><!--/#wrapper -->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="assets/script/html5shiv.min.js"></script>
+		<script src="assets/script/respond.min.js"></script>
+	<![endif]-->
+	<!-- 
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="assets/scripts/jquery.min.js"></script>
+	<script src="assets/scripts/modernizr.min.js"></script>
+	<script src="assets/plugin/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/plugin/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="assets/plugin/nprogress/nprogress.js"></script>
+	<script src="assets/plugin/sweet-alert/sweetalert.min.js"></script>
+	<script src="assets/plugin/waves/waves.min.js"></script>
+	<!-- Full Screen Plugin -->
+	<script src="assets/plugin/fullscreen/jquery.fullscreen-min.js"></script>
+
+	<!-- Percent Circle -->
+	<script src="assets/plugin/percircle/js/percircle.js"></script>
+
+	<!-- Google Chart -->
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+	<!-- Chartist Chart -->
+	<script src="assets/plugin/chart/chartist/chartist.min.js"></script>
+	<script src="assets/scripts/chart.chartist.init.min.js"></script>
+
+	<!-- FullCalendar -->
+	<script src="assets/plugin/moment/moment.js"></script>
+	<script src="assets/plugin/fullcalendar/fullcalendar.min.js"></script>
+	<script src="assets/scripts/fullcalendar.init.js"></script>
+
+	<!-- Morris Chart -->
+	<script src="assets/plugin/chart/morris/morris.min.js"></script>
+	<script src="assets/plugin/chart/morris/raphael-min.js"></script>
+	<script src="assets/scripts/chart.morris.init.min.js"></script>
+
+
+
+
+
+	<!-- Hightcharts -->
+	<script src="assets/plugin/chart/highcharts/highcharts.js"></script>
+	<script src="assets/plugin/chart/highcharts/highcharts-3d.js"></script>
+	<script src="assets/plugin/chart/highcharts/themes/grid-light.js"></script>
+	<script src="assets/scripts/chart.highcharts.init.min.js"></script>
+
+
+
+
+	<!-- Flex Datalist -->
+	<script src="assets/plugin/flexdatalist/jquery.flexdatalist.min.js"></script>
+
+	<!-- Popover -->
+	<script src="assets/plugin/popover/jquery.popSelect.min.js"></script>
+
+	<!-- Select2 -->
+	<script src="assets/plugin/select2/js/select2.min.js"></script>
+
+	<!-- Multi Select -->
+	<script src="assets/plugin/multiselect/multiselect.min.js"></script>
+
+	<!-- Touch Spin -->
+	<script src="assets/plugin/touchspin/jquery.bootstrap-touchspin.min.js"></script>
+
+	<!-- Timepicker -->
+	<script src="assets/plugin/timepicker/bootstrap-timepicker.min.js"></script>
+
+	<!-- Colorpicker -->
+	<script src="assets/plugin/colorpicker/js/bootstrap-colorpicker.min.js"></script>
+
+	<!-- Datepicker -->
+	<script src="assets/plugin/datepicker/js/bootstrap-datepicker.min.js"></script>
+
+	<!-- Moment -->
+	<script src="assets/plugin/moment/moment.js"></script>
+
+	<!-- DateRangepicker -->
+	<script src="assets/plugin/daterangepicker/daterangepicker.js"></script>
+
+	<!-- Maxlength -->
+	<script src="assets/plugin/maxlength/bootstrap-maxlength.min.js"></script>
+
+	<!-- Demo Scripts -->
+	<script src="assets/scripts/form.demo.min.js"></script>
+
+
+
+	<!-- Data Tables -->
+	<script src="assets/plugin/datatables/media/js/jquery.dataTables.min.js"></script>
+	<script src="assets/plugin/datatables/media/js/dataTables.bootstrap.min.js"></script>
+	<script src="assets/plugin/datatables/extensions/Responsive/js/dataTables.responsive.min.js"></script>
+	<script src="assets/plugin/datatables/extensions/Responsive/js/responsive.bootstrap.min.js"></script>
+	<script src="assets/scripts/datatables.demo.min.js"></script>
+
+
+
+
+	<script src="assets/scripts/main.min.js"></script>
+	<script src="assets/color-switcher/color-switcher.min.js"></script>
+</body>
+</html>
